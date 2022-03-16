@@ -1,73 +1,29 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+setup and mobile version skeleton
 
-# Project Name
+Sutup a Hello Microverse Project.
 
-> Description the project.
+Built With
+HTML
+CSS
+Getting Started
+To setup this project locally, you need to download or clone this repo first. Then open the a.html file using your favorite browser..
 
+To get a local copy up and running follow these simple example steps. -clone the repo or download the source code -install favorite editor -install favorite browser
 
-## Built With
+Prerequisites
+none
 
-- Major languages
-- Frameworks
-- Technologies used
+Authors
+👤 Author
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+GitHub: @Yayner2002
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Acknowledgments
+Microverse
