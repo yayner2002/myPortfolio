@@ -1,6 +1,6 @@
 setup and mobile version skeleton
 
-Sutup a Hello Microverse Project.
+Sutup mobile version skeleton Microverse Project.
 
 Built With
 HTML
