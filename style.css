@@ -28,7 +28,6 @@ body {
     /* transform: rotate(-145.24deg); */
     font-family: "Poppins", sans-serif;
     font-family: "Inter", sans-serif;
-   
 }
 .nav-flex {
     /* border: 5px solid black; */
@@ -81,7 +80,7 @@ body {
     padding-left: 2%;
     padding-right: 2%;
 }
-.social-icons{
+.social-icons {
     padding-left: 2%;
     padding-right: 2%;
 }
