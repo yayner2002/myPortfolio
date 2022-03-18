@@ -23,11 +23,6 @@ body {
 }
 
 .nav-flex {
-  background-image: url('./images/Header-llustration-desktop.svg');
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-position: bottom;
-  background-attachment: scroll;
   text-align: center;
   margin: 0;
   padding-right: 2%;
@@ -58,7 +53,12 @@ body {
 }
 
 .home-content {
+  background-image: url('../images/header-illsutration-mobile.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   padding-top: 50px;
+  height: 100vh;
+  /* width: 375px; */
   align-items: center;
   text-align: center;
   display: flex;
@@ -71,16 +71,19 @@ body {
   align-items: center;
   align-content: center;
   font-size: 20px;
-  line-height: 2.3em;
+  line-height: 2em;
 }
 
 .home-content .software-dev {
   color: #36b37f;
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 .home-content .supporting {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   line-height: 1.5em;
   font-size: 13px;
   padding-left: 2%;
@@ -96,7 +99,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding-top: 30px;
+  padding-top:20px;
 }
 
 .social-icons ul li i {
@@ -106,7 +109,7 @@ body {
 }
 
 .my-recent-works {
-  padding-top: 30px;
+  padding-top: 5px;
   text-align: center;
   padding-left: 2%;
   padding-right: 2%;
