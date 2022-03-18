@@ -58,6 +58,7 @@ body {
   background-repeat: no-repeat;
   padding-top: 50px;
   height: 100vh;
+
   /* width: 375px; */
   align-items: center;
   text-align: center;
@@ -78,7 +79,6 @@ body {
   color: #36b37f;
   font-size: 30px;
   font-weight: bold;
-
 }
 
 .home-content .supporting {
@@ -99,7 +99,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
 .social-icons ul li i {
