@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  font-weight: 100;
+  padding: 20px 5px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-flex {
+  background-image: url('./images/Header-llustration-desktop.svg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: bottom;
+  background-attachment: scroll;
+  text-align: center;
+  margin: 0;
+  padding-right: 2%;
+  padding-left: 2%;
+  max-width: 375px;
+  border: 10px solid black;
+}
+
+.nav-flex ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-flex ul li a {
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  color: #344563;
+}
+
+.nav-flex ul .pages {
+  justify-content: flex-start;
+}
+
+.nav-flex ul .menu {
+  justify-content: flex-end;
+}
+
+.home-content {
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.home-content .primary {
+  align-items: center;
+  align-content: center;
+  font-size: 20px;
+  line-height: 2.3em;
+}
+
+.home-content .software-dev {
+  color: #36b37f;
+}
+
+.home-content .supporting {
+  text-align: center;
+  padding-top: 30px;
+  line-height: 1.5em;
+  font-size: 13px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.social-icons {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.social-icons ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.social-icons ul li i {
+  width: 100%;
+  height: 100%;
+  color: #505f79;
+}
+
+.my-recent-works {
+  padding-top: 30px;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 30px;
+}
