@@ -56,7 +56,7 @@ header nav .menu {
   background-image: url("../images/header-illsutration-mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 60px;
+  padding-top: 50px;
   height: 100vh;
   align-items: center;
   text-align: center;
@@ -69,7 +69,7 @@ header nav .menu {
 .home-content .primary {
   align-items: center;
   align-content: center;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6em;
 }
 
