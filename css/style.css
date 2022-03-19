@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Inter", sans-serif;
+  width: 375px;
 }
 
 .nav-flex {
@@ -38,7 +39,7 @@ body {
   transition: all 0.5s;
 }
 
-.flex-post ul a {
+.flex-post ul li {
   background-color: #ebf0ee;
   border: 1px solid #ebf0ee;
   padding: 5px;
@@ -145,7 +146,7 @@ body {
 }
 
 .my-recent-works {
-  padding-top: 10px;
+  padding-top: 45px;
   text-align: center;
   padding-left: 2%;
   padding-right: 2%;
@@ -159,6 +160,7 @@ body {
 
 .my-recent-works img {
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /* ---------------------mobile version------------ */
@@ -175,6 +177,7 @@ body {
 .my-works {
   max-width: 375px;
   text-align: center;
+  margin-top: 120px;
 }
 
 .my-works .indicator {
@@ -197,12 +200,7 @@ body {
 .work-6 {
   border-radius: 8px;
   border: 1px solid #d0d9d4;
-  display: grid;
-  grid-template-columns: 1fr;
   align-items: center;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  grid-auto-rows: 50%;
   padding-bottom: 15px;
 }
 
@@ -237,17 +235,25 @@ body {
   max-width: 375px;
   text-align: center;
   padding: 10px;
+  background: url('../images/illustration\ 2-about\ me\ mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100px 50px;
+  background-position: bottom left;
 }
 
 .about-me-text {
-  width: 327px;
-  padding: 10px;
+  width: 351px;
+  padding-top: 30px;
+  background: url('../images/illustration\ 1-\ about\ me-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: 290px 0;
 }
 
 .about-me-text h2 {
   padding-top: 30px;
   font-size: 40px;
   font-weight: 700;
+  color: #172b4d;
 }
 
 .about-me .about-me-text p {
@@ -255,6 +261,8 @@ body {
   line-height: 1.5em;
   font-weight: 400;
   font-style: normal;
+  color: #42526e;
+  font-size: 20px;
 }
 
 .frameworks h2,
@@ -267,10 +275,11 @@ body {
 
 .about-me .about-me-text h2 {
   margin: 20px auto;
+  padding-bottom: 20px;
 }
 
 .about-me .get-resume {
-  padding: 15px;
+  padding: 12px;
   color: #fff;
   margin: 20px 0;
   outline: none;
@@ -278,7 +287,7 @@ body {
   background: #36b37f;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .my-knowledge {
@@ -291,7 +300,7 @@ body {
 .my-knowledge .flex-languages ul {
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: space-between;
   padding: 10px;
 }
@@ -299,53 +308,29 @@ body {
 .my-knowledge .flex-frameworks ul {
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 10px;
+  width: 327px;
 }
 
-.my-knowledge .flex-frameworks ul li:nth-of-type(4) {
-  margin-top: 25px;
-  align-self: center;
-}
-
-.my-knowledge .flex-frameworks ul li:nth-of-type(5) {
-  margin-top: 25px;
-  align-self: center;
-  margin-left: 0;
-}
-
-.my-knowledge .flex-languages ul a {
-  color: #36b37f;
-  background: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.my-knowledge .flex-frameworks ul a {
-  color: #36b37f;
-  background: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.my-knowledge .flex-skills ul a {
+.my-knowledge .flex-skills ul li,
+.my-knowledge .flex-frameworks ul li,
+.my-knowledge .flex-languages ul li {
   color: #36b37f;
   background: #fff;
   padding: 10px;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: bold;
   font-style: normal;
   font-size: 12px;
   align-items: center;
+  margin: 5px;
+}
+
+.flex-skills {
+  margin-bottom: 100px;
 }
 
 .my-knowledge .languages,
@@ -356,12 +341,7 @@ body {
   background-color: #ebf0ee;
   padding: 10px;
   height: 352px;
-  width: 327px;
   margin: 10px;
-}
-
-.my-knowledge .skills {
-  padding: 10px;
 }
 
 .contact-me {
@@ -380,11 +360,17 @@ body {
 
 .contact-me .contact-me-content h3 {
   text-align: center;
-  line-height: 52px;
+  line-height: 1.4em;
   color: #172b4d;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+.languages img,
+.frameworks img,
+.skills img {
+  text-align: center;
 }
 
 /* --------------------end of mobile version-------- */
