@@ -366,7 +366,7 @@ body {
   width: 327px;
   padding: 10px;
   margin-top: 20px;
-  height: 363px;
+  height: auto;
 }
 
 .contact-me .contact-me-content h3 {
@@ -414,8 +414,10 @@ form {
 .form-group textarea {
   border: 1px solid #60c095;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 500;
+  font-family: "Inter";
   font-size: 15px;
+  color: #091e42;
   height: 114px;
   padding-left: 10px;
   padding-top: 10px;
@@ -424,7 +426,6 @@ form {
   flex-basis: 100%;
   resize: none;
   font-style: normal;
-  color: #091e42;
 }
 
 .get-in-touch {
