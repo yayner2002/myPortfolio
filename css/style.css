@@ -391,7 +391,7 @@ body {
   width: 375px;
   background: url('../images/illustration-contact-form.svg');
   background-repeat: no-repeat;
-  background-position: 300px 340px;
+  background-position: 320px 340px;
   margin-top: 5px;
 }
 
@@ -429,7 +429,7 @@ form {
 
 .get-in-touch {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: bolder;
   background-color: #36b37f;
   padding: 12px;
   border-radius: 4px;
@@ -441,6 +441,11 @@ form {
   color: #fff;
   align-items: center;
   text-align: center;
+}
+
+.get-in-touch:hover {
+  background-color: #2d7d5d;
+  transition: all 0.3s;
 }
 
 .email {
