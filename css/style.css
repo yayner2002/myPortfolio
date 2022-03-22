@@ -48,6 +48,15 @@ body {
   color: #000;
 }
 
+.email a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #42526e;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
 .nav-flex header li a {
   font-weight: 600;
   font-size: 15px;
@@ -60,10 +69,12 @@ body {
 }
 
 .social-icons ul {
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 170px;
+  margin: auto;
   display: flex;
   list-style: none;
-  justify-content: center;
-  padding-top: 20px;
 }
 
 .flex-post ul {
@@ -348,14 +359,14 @@ body {
   width: 375px;
   padding: 10px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact-me .contact-me-content {
   width: 327px;
   padding: 10px;
   margin-top: 20px;
-  height: 363px;
+  height: auto;
 }
 
 .contact-me .contact-me-content h3 {
@@ -374,3 +385,100 @@ body {
 }
 
 /* --------------------end of mobile version-------- */
+
+/* -------------contact form css----- */
+.contact-form {
+  width: 375px;
+  background: url('../images/illustration-contact-form.svg');
+  background-repeat: no-repeat;
+  background-position: 320px 340px;
+  margin-top: 5px;
+}
+
+.form-group input {
+  border: 1px solid #d0d9d4;
+  outline: none;
+  border-radius: 4px;
+  color: #6b778c;
+  height: 48px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+form {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.form-group textarea {
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+  height: 114px;
+  padding-left: 10px;
+  padding-top: 10px;
+  outline: none;
+  background: #fff;
+  flex-basis: 100%;
+  resize: none;
+  font-style: normal;
+}
+
+.get-in-touch {
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: #36b37f;
+  padding: 12px;
+  border-radius: 4px;
+  width: 129px;
+  height: 48px;
+  margin-left: 123px;
+  margin-top: 20px;
+  border: 1px solid #36b37f;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.get-in-touch:hover {
+  background-color: #2d7d5d;
+  transition: all 0.3s;
+}
+
+.email {
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 80px;
+}
+
+.icon-resize {
+  position: absolute;
+  top: 74%;
+  right: 15px;
+}
+
+.contact-form .contact-shape {
+  text-align: center;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 123px;
+  margin-top: 100vh;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+
+  /* border: 2px solid black; */
+  margin: 0 10px;
+}
+
+.form-group label {
+  display: none;
+}
