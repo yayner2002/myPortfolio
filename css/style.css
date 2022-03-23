@@ -132,6 +132,7 @@ body {
   margin-top: 30px;
   margin-bottom: 25px;
   text-align: center;
+  color: #344563;
 }
 
 .posts h2 {
@@ -172,10 +173,11 @@ body {
 }
 
 .my-recent-works h3 {
-  line-height: 3rem;
-  font-weight: 700;
-  font-size: 40px;
   color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
 }
 
 .home-content .supporting h3 {
@@ -214,13 +216,6 @@ body {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.my-recent-works h3{
-  color: #172B4D;
-  font-size: 40px;
-  font-weight: 700;
-  align-items: center;
-  text-align: center;
-}
 
 /* ---------------------mobile version------------ */
 
@@ -231,8 +226,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   line-height: 1.2em;
-  color: #3A4A42;
- 
+  color: #3a4a42;
 }
 
 .my-works {
@@ -287,7 +281,7 @@ body {
 .about-me {
   width: 351px;
   text-align: center;
-  background: url('../images/illustration\ 2-about\ me\ mobile.svg');
+  background: url("../images/illustration\ 2-about\ me\ mobile.svg");
   background-repeat: no-repeat;
   background-size: 100px 50px;
   background-position: bottom left;
@@ -296,7 +290,7 @@ body {
 .about-me-text {
   width: 351px;
   padding-top: 5px;
-  background: url('../images/illustration\ 1-\ about\ me-mobile.svg');
+  background: url("../images/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat;
   background-position: 290px 0;
 }
@@ -365,9 +359,6 @@ body {
   align-items: center;
   margin: 5px;
 }
-.languages h2 ,.frameworks h2, .skills h2{
-  color: #344563;
-}
 
 .flex-skills {
   margin-bottom: 100px;
@@ -418,7 +409,7 @@ body {
 /* -------------contact form css----- */
 .contact-form {
   width: 375px;
-  background: url('../images/illustration-contact-form.svg');
+  background: url("../images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position: 320px 340px;
   margin-top: 5px;
