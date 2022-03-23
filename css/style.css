@@ -188,7 +188,7 @@ body {
 .my-works {
   max-width: 375px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 0;
 }
 
 .my-works .indicator {
@@ -245,7 +245,6 @@ body {
 .about-me {
   max-width: 375px;
   text-align: center;
-  padding: 10px;
   background: url('../images/illustration\ 2-about\ me\ mobile.svg');
   background-repeat: no-repeat;
   background-size: 100px 50px;
