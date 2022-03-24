@@ -537,6 +537,7 @@ hr {
     background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
+
     /* border: 1px solid yellow; */
   }
 
@@ -544,6 +545,7 @@ hr {
     width: 100%;
     margin: auto;
     margin-top: 10px;
+
     /* border: 10px solid black; */
 
     /* background-image: url('../images/Frame(1).svg'); */
