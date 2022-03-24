@@ -229,84 +229,115 @@
       <!-- -----------end of mobile version------------- -->
       <div class="contact-container">
         <section class="contact-form">
-          <section class="contact-me">
-            <div class="contact-me-content">
-              <h3>
-                I'm always interested in hearing about new projects, so if you'd
-                like to chat please get in touch.
-              </h3>
-            </div>
+          <div class="form-flex">
+            <section class="contact-me">
+              <div class="contact-me-content">
+                <h3>
+                  I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </h3>
+              </div>
+            </section>
+            <form action="https://formspree.io/f/mdobdvyd" method="post">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  required
+                  name="fullname"
+                  maxlength="30"
+                  id="fullname"
+                />
+              </div>
+              <div class="first-last-name">
+                <div class="form-group">
+                  <label for="firstname">First Name</label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    required
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastname">Last Name</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    required
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Leave A Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Enter text here"
+                  cols="30"
+                  rows="5"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="get-in-touch">Get in touch</button>
+              <img
+                src="images/Icon-ResizerHandle.svg"
+                alt="image-resize"
+                class="icon-resize"
+              />
+            </form>
+          </div>
+          <img
+            src="images/contact illus-1.svg"
+            alt="illustration-image"
+            class="contact-illus-1"
+          />
+          <img
+            src="images/contact-illus-2.svg"
+            alt="illustration-image"
+            class="contact-illus-2"
+          />
+          <hr />
+          <section class="social-icons">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-m fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-github fa-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-angellist fa-xl"></i></a>
+              </li>
+            </ul>
           </section>
-          <form action="https://formspree.io/f/mdobdvyd" method="post">
-            <div class="form-group">
-              <label for="fullname">Full Name</label>
-              <input
-                type="text"
-                placeholder="Full Name"
-                required
-                name="fullname"
-                maxlength="30"
-                id="fullname"
-              />
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="Email Address"
-              />
-            </div>
-            <div class="form-group">
-              <label for="message">Leave A Message</label>
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Enter text here"
-                cols="30"
-                rows="10"
-                maxlength="500"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="get-in-touch">Get in touch</button>
-            <img
-              src="images/Icon-ResizerHandle.svg"
-              alt="image-resize"
-              class="icon-resize"
-            />
-          </form>
+          <section class="email">
+            <a href="mailto:yayner2002@gmail.com">Yayner2002@gmail.com</a>
+            
+          </section>
+          <img src="images/Shape.svg" alt="contact-shape" class="contact-shape" />
         </section>
-      <img src="images/contact illus-1.svg" alt="illustration-image" class="contact-illus-1">
-       <img src="images/contact-illus-2.svg" alt="illustration-image" class="contact-illus-2">
-        <hr>
-        <section class="social-icons">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-m fa-xl"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-github fa-xl"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-angellist fa-xl"></i></a>
-            </li>
-          </ul>
-        </section>
-        <section class="email">
-          <a href="mailto:yayner2002@gmail.com">Yayner2002@gmail.com</a>
-        </section>
-        <img src="images/Shape.svg" alt="contact-shape" class="contact-shape" />
       </div>
-     
     </div>
   </body>
 </html>

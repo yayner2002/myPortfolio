@@ -18,7 +18,8 @@ body {
   padding-right: 2%;
   padding-left: 2%;
   max-width: 375px;
-  margin-bottom: 320px;
+
+  /* margin-bottom: 320px; */
   min-width: 375px;
 }
 
@@ -52,6 +53,13 @@ nav {
   border-radius: 5px;
   text-decoration: none;
   color: #000;
+}
+
+.email {
+  margin-bottom: 100px;
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 80px;
 }
 
 .email a {
@@ -210,7 +218,8 @@ nav .nav-right {
   padding-top: 20px;
   width: 327px;
   height: 97px;
-  margin-bottom: 50%;
+
+  /* margin-bottom: 50%; */
 }
 
 .action {
@@ -412,11 +421,16 @@ nav .nav-right {
 /* --------------------end of mobile version-------- */
 
 /* -------------contact form css----- */
+.contact-container {
+  width: 375px;
+  height: 100vh;
+}
+
 .contact-form {
   width: 375px;
   background: url("../images/illustration-contact-form.svg");
   background-repeat: no-repeat;
-  background-position: 320px 630px;
+  background-position: bottom 170px right 1px;
   margin-top: 5px;
 }
 
@@ -442,14 +456,15 @@ form {
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
-  height: 114px;
   padding-left: 10px;
   padding-top: 10px;
+  padding-right: 10px;
   outline: none;
   background: #fff;
   flex-basis: 100%;
   resize: none;
   font-style: normal;
+  height: 114px;
 }
 
 .get-in-touch {
@@ -473,26 +488,19 @@ form {
   transition: all 0.3s;
 }
 
-.email {
-  margin-top: 20px;
-  width: 300px;
-  margin-left: 80px;
-}
-
 .icon-resize {
   position: absolute;
-  top: 74%;
-  right: 15px;
+  top: 67%;
+  right: 16px;
 }
 
-.contact-form .contact-shape {
+.contact-shape {
   text-align: center;
   width: 134px;
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
   margin-left: 123px;
-  margin-top: 100vh;
 }
 
 .form-group {
@@ -512,6 +520,15 @@ hr {
   display: none;
 }
 
+.first-last-name {
+  display: none;
+}
+
+.contact-illus-1,
+.contact-illus-2 {
+  display: none;
+}
+
 /* --------media queries----- */
 @media (min-width: 768px) {
   body {
@@ -520,21 +537,25 @@ hr {
     background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
   }
 
   .container {
     width: 100%;
     margin: auto;
-    margin-top: 2px;
-    border: 2px solid red;
+    margin-top: 10px;
+    /* border: 10px solid black; */
+
+    /* background-image: url('../images/Frame(1).svg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 1px left 20px;
   }
 
   .nav-flex {
     min-width: 100%;
     margin: auto;
     height: 1115px;
-    border: 5px solid chocolate;
   }
 
   .nav-middle ul {
@@ -567,7 +588,6 @@ hr {
     width: 920px;
     height: 920px;
     padding-top: 100px;
-    border: 1px solid blue;
     margin: auto;
   }
 
@@ -642,7 +662,6 @@ hr {
   .my-works {
     min-width: 1171px;
     min-height: 1020px;
-    border: 1px solid green;
     margin: auto;
   }
 
@@ -665,7 +684,6 @@ hr {
   .about-me {
     width: 100%;
     height: 345px;
-    border: 5px solid black;
     margin: auto;
     background: url("../images/Group\ desktop.svg");
     background-repeat: no-repeat;
@@ -673,12 +691,11 @@ hr {
   }
 
   .about-me-text {
-    border: 1px solid purple;
     width: 100%;
     height: 345px;
     background: url("../images/Group\ desk.svg");
     background-repeat: no-repeat;
-    background-position: px;
+    background-position: 1px;
   }
 
   .about-me-text p {
@@ -712,39 +729,37 @@ hr {
     height: 375px;
   }
 
-  .contact-form {
-    min-width: 1171px;
+  .contact-form .form-flex {
+    margin: 0 80px;
     display: grid;
-    gap: 5px;
-    margin: 20px auto;
-    grid-template-columns: 3fr 4fr;
-    border: 1px solid chocolate;
+    width: 1171px;
+    height: 490px;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
   }
 
   .contact-form .contact-me {
-    border: 2px solid black;
     width: 463px;
+    height: 253px;
   }
 
   .contact-me-content {
-    height: 258px;
+    height: 200px;
     width: 463px;
+    padding: 0;
+    padding-right: 25px;
+    margin: 0;
   }
 
   .contact-me-content h3 {
-    padding-right: 15px;
     color: #172b4d;
     width: 463px;
     font-weight: 700;
-    font-size: 28px;
-    align-items: baseline;
-    text-align: center;
-    align-content: center;
+    font-size: 30px;
   }
 
   form {
-    border: 2px solid black;
-    width: 684px;
+    position: relative;
   }
 
   .form-group {
@@ -755,10 +770,10 @@ hr {
   .contact-shape {
     display: none;
   }
+
   .email {
     height: 200px;
-    width: 500;
-    border: 2px solid red;
+    width: 500px;
   }
 
   hr {
@@ -766,35 +781,62 @@ hr {
     width: 1440px;
     height: 1px;
     display: inline-block;
-    margin-bottom: 0;
+    margin-top: 100px;
   }
-  .contact-container{
+
+  .contact-container {
     width: 100%;
-    min-height: 100vh;
-    border: 2px solid blue;
+    height: 100vh;
     background-image: url('../images/Frame.svg');
     background-repeat: no-repeat;
-    background-position: 1125px 150px;
+    background-size: contain;
+    background-position: bottom 2px right -25px;
+    margin-bottom: 100px;
   }
-  .contact-container .social-icons{
-    padding-top: 0;
-    margin-top: 0;
+
+  .contact-container .social-icons {
+    margin-left: 580px;
   }
-  .contact-illus-1{
+
+  .contact-illus-1 {
     height: 160px;
     width: 110px;
     margin-top: 0;
     padding-top: 0;
-    border: 2px solid black;
+
     /* background-image: url('../images/contact\ illus-1.svg'); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 5px 10px;
   }
-  .contact-illus-2{
-    border: 1px solid black;
-    height: 150px;
-    width: 100px;
-    margin-left: 130px;
+
+  .contact-illus-2 {
+    height: 50px;
+    width: 10px;
+    margin-left: 13px;
+  }
+
+  .form-group #fullname {
+    display: none;
+  }
+
+  .first-last-name {
+    display: inline-block;
+  }
+
+  form .first-last-name {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .get-in-touch {
+    margin-left: 15px;
+  }
+
+  .icon-resize {
+    position: absolute;
+    top: 47%;
+    right: 7px;
   }
 }
