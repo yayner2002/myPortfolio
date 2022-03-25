@@ -882,4 +882,11 @@ hr {
     background-repeat: no-repeat;
     background-position: bottom 80px left 1px;
   }
+
+  .languages:hover,
+  .skills:hover,
+  .frameworks:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
 }
