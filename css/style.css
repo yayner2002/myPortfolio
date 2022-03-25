@@ -548,8 +548,8 @@ hr {
 
     /* background-size: contain;
     background-repeat: no-repeat; */
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
 
     /* border: 1px solid yellow; */
   }
@@ -594,11 +594,12 @@ hr {
   }
 
   .nav-middle ul li {
+    padding: 0.5rem;
     margin-right: 25px;
     font-size: 16px;
     font-weight: 600;
     color: #344563;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .home-content {
@@ -623,7 +624,7 @@ hr {
     font-weight: 400;
     margin-top: 2px;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     padding: 0 60px;
   }
 
@@ -632,7 +633,7 @@ hr {
     font-weight: 700;
     font-size: 48px;
     font-style: normal;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin-bottom: 10px;
     text-align: center;
     width: 447px;
@@ -645,7 +646,7 @@ hr {
     line-height: 0.8em;
     font-weight: 700;
     color: #172b4d;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .home-content .primary .software-dev {
@@ -759,7 +760,7 @@ hr {
     height: 490px;
     gap: 10px;
     grid-template-columns: 1fr 2fr;
-    background-image: url('../images/bg\ 2\ for\ contact.svg');
+    background-image: url("../images/bg\ 2\ for\ contact.svg");
     background-repeat: no-repeat;
     background-position: bottom 0 left 200px;
   }
@@ -813,7 +814,7 @@ hr {
   .contact-container {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/Frame.svg');
+    background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom 2px right -25px;
@@ -881,5 +882,31 @@ hr {
     background: url("../images/bg1\ for\ contact.svg");
     background-repeat: no-repeat;
     background-position: bottom 80px left 1px;
+  }
+
+  .languages:hover,
+  .skills:hover,
+  .frameworks:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+  }
+
+  .nav-middle li:hover,
+  .nav-middle li:focus {
+    background-color: #008552;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .work-1:hover,
+  .work-2:hover,
+  .work-3:hover,
+  .work-4:hover,
+  .work-5:hover,
+  .work-6:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
   }
 }
