@@ -728,6 +728,10 @@ hr {
     text-align: center;
   }
 
+  .get-resume {
+    transition: 0.5s;
+  }
+
   .about-me .get-resume {
     margin-top: 60px;
   }
@@ -856,5 +860,17 @@ hr {
     position: absolute;
     top: 47%;
     right: 7px;
+  }
+
+  .works-button {
+    transition: 0.5s;
+  }
+
+  .works-button:hover {
+    background-color: green;
+  }
+
+  .get-resume:hover {
+    background-color: rgb(141, 12, 12);
   }
 }
