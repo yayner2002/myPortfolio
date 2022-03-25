@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Inter", sans-serif;
-  width: 375px;
+  min-width: 375px;
 }
 
 .nav-flex {
@@ -18,13 +18,17 @@ body {
   padding-right: 2%;
   padding-left: 2%;
   max-width: 375px;
-  margin-bottom: 50px;
+  min-width: 375px;
 }
 
-.nav-flex header {
+.nav-middle ul {
+  display: none;
+}
+
+nav {
   display: flex;
-  list-style: none;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .nav-flex a {
@@ -49,6 +53,13 @@ body {
   color: #000;
 }
 
+.email {
+  margin-bottom: 100px;
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 80px;
+}
+
 .email a {
   font-weight: 400;
   font-size: 20px;
@@ -65,7 +76,7 @@ body {
   color: #344563;
 }
 
-.nav-flex header .welcome {
+nav .nav-left {
   justify-content: flex-start;
 }
 
@@ -102,7 +113,7 @@ body {
   list-style: none;
 }
 
-.nav-flex ul .menu {
+nav .nav-right {
   justify-content: flex-end;
 }
 
@@ -110,9 +121,9 @@ body {
   background-image: url("../images/header-illsutration-mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 40px 2px;
+  background-position: 50px 10px;
   padding-top: 50px;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   text-align: center;
   display: flex;
@@ -205,7 +216,8 @@ body {
   padding-top: 20px;
   width: 327px;
   height: 97px;
-  margin-bottom: 50%;
+
+  /* margin-bottom: 50%; */
 }
 
 .action {
@@ -232,7 +244,9 @@ body {
 .my-works {
   max-width: 375px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .my-works .indicator {
@@ -285,6 +299,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100px 50px;
   background-position: bottom left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .about-me-text {
@@ -326,6 +342,8 @@ body {
   grid-template-columns: 1fr;
   gap: 10px;
   width: 375px;
+  padding-left: 16px;
+  padding-right: 10px;
 }
 
 .my-knowledge .flex-languages ul {
@@ -372,7 +390,9 @@ body {
   background-color: #ebf0ee;
   padding: 10px;
   height: 352px;
-  margin: 10px;
+  margin-top: 10px;
+
+  /* margin-right: 20px; */
 }
 
 .contact-me {
@@ -384,7 +404,6 @@ body {
 
 .contact-me .contact-me-content {
   width: 327px;
-  padding: 10px;
   margin-top: 20px;
   height: auto;
 }
@@ -396,6 +415,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  padding-left: 20px;
 }
 
 .languages img,
@@ -407,11 +427,13 @@ body {
 /* --------------------end of mobile version-------- */
 
 /* -------------contact form css----- */
+.contact-container {
+  width: 375px;
+  height: 100vh;
+}
+
 .contact-form {
   width: 375px;
-  background: url("../images/illustration-contact-form.svg");
-  background-repeat: no-repeat;
-  background-position: 320px 340px;
   margin-top: 5px;
 }
 
@@ -437,14 +459,15 @@ form {
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
-  height: 114px;
   padding-left: 10px;
   padding-top: 10px;
+  padding-right: 10px;
   outline: none;
   background: #fff;
   flex-basis: 100%;
   resize: none;
   font-style: normal;
+  height: 114px;
 }
 
 .get-in-touch {
@@ -461,33 +484,35 @@ form {
   color: #fff;
   align-items: center;
   text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .get-in-touch:hover {
-  background-color: #2d7d5d;
-  transition: all 0.3s;
+  background-color: #36b37f;
 }
 
-.email {
-  margin-top: 20px;
-  width: 300px;
-  margin-left: 80px;
+.get-in-touch:active {
+  background-color: #008552;
+}
+
+.get-in-touch:enabled {
+  background-color: #36b37f;
 }
 
 .icon-resize {
   position: absolute;
-  top: 74%;
-  right: 15px;
+  top: 67%;
+  right: 16px;
 }
 
-.contact-form .contact-shape {
+.contact-shape {
   text-align: center;
   width: 134px;
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
   margin-left: 123px;
-  margin-top: 100vh;
 }
 
 .form-group {
@@ -501,4 +526,360 @@ form {
 
 .form-group label {
   display: none;
+}
+
+hr {
+  display: none;
+}
+
+.first-last-name {
+  display: none;
+}
+
+.contact-illus-1,
+.contact-illus-2 {
+  display: none;
+}
+
+/* --------media queries----- */
+@media (min-width: 768px) {
+  body {
+    /* background-image: url(../images/Header-llustration-desktop.svg); */
+
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    /* border: 1px solid yellow; */
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+
+    /* border: 10px solid black; */
+
+    /* background-image: url('../images/Frame(1).svg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 1px left 20px;
+  }
+
+  .nav-flex {
+    min-width: 100%;
+    margin: auto;
+    height: 1020px;
+    background-image: url(../images/Header-llustration-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .nav-middle ul {
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+  }
+
+  nav .nav-left,
+  nav .nav-right {
+    display: none;
+  }
+
+  .nav-middle ul li {
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .home-content {
+    background-image: none;
+    width: 920px;
+    padding-top: 100px;
+    margin: auto;
+  }
+
+  .home-content .primary {
+    height: 114px;
+    width: 920px;
+    margin: 12px;
+    text-align: center;
+  }
+
+  .home-content .supporting {
+    width: 920px;
+    height: 150px;
+    color: #172b4d;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 0 60px;
+  }
+
+  .about-me-text h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 48px;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 447px;
+    height: 48px;
+  }
+
+  .home-content .primary h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 0.8em;
+    font-weight: 700;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .home-content .primary .software-dev {
+    font-size: 48px;
+  }
+
+  .social-icons {
+    margin-top: 0;
+    padding-top: 5px;
+  }
+
+  .my-recent-works {
+    width: 447px;
+    height: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 560px;
+  }
+
+  .my-recent-works h3 {
+    color: #172b4d;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .my-recent-works img {
+    display: none;
+  }
+
+  .my-works {
+    min-width: 1171px;
+    min-height: 1020px;
+    margin: auto;
+    margin-top: 120px;
+  }
+
+  .works .work-1,
+  .works .work-2,
+  .works .work-3,
+  .works .work-4,
+  .works .work-5,
+  .works .work-6 {
+    max-width: 369px;
+    max-height: 474px;
+  }
+
+  .works {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-me {
+    width: 100%;
+    height: 345px;
+    margin: auto;
+    background: url("../images/Group\ desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 1098px 0;
+  }
+
+  .about-me-text {
+    width: 100%;
+    height: 345px;
+    background: url("../images/Group\ desk.svg");
+    background-repeat: no-repeat;
+    background-position: 1px;
+  }
+
+  .about-me-text p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #42526e;
+    margin-top: 10px;
+    width: 920px;
+    height: 96px;
+    padding-left: 350px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .get-resume {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .about-me .get-resume {
+    margin-top: 60px;
+  }
+
+  .my-knowledge {
+    width: 1171px;
+    margin: auto;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .my-knowledge .languages,
+  .my-knowledge .frameworks,
+  .my-knowledge .skills {
+    width: 369px;
+    height: 375px;
+  }
+
+  .contact-form .form-flex {
+    margin: 0 80px;
+    display: grid;
+    width: 1171px;
+    height: 490px;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    background-image: url('../images/bg\ 2\ for\ contact.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0 left 200px;
+  }
+
+  .contact-form .contact-me {
+    width: 463px;
+    height: 253px;
+  }
+
+  .contact-me-content {
+    height: 200px;
+    width: 463px;
+    padding: 0;
+    padding-right: 25px;
+    margin: 0;
+  }
+
+  .contact-me-content h3 {
+    color: #172b4d;
+    width: 463px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  form {
+    position: relative;
+  }
+
+  .form-group {
+    margin-right: 0;
+  }
+
+  .email,
+  .contact-shape {
+    display: none;
+  }
+
+  .email {
+    height: 200px;
+    width: 500px;
+  }
+
+  hr {
+    background: #dfe1e6;
+    width: 1440px;
+    height: 1px;
+    display: inline-block;
+    margin-top: 100px;
+  }
+
+  .contact-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/Frame.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 2px right -25px;
+    margin-bottom: 100px;
+  }
+
+  .contact-container .social-icons {
+    margin-left: 580px;
+  }
+
+  .form-group #fullname {
+    display: none;
+  }
+
+  .first-last-name {
+    display: inline-block;
+  }
+
+  form .first-last-name {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .get-in-touch {
+    margin-left: 15px;
+  }
+
+  .icon-resize {
+    position: absolute;
+    top: 47%;
+    right: 7px;
+  }
+
+  .works-button {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .works-button:hover {
+    background-color: #36b37f;
+  }
+
+  .works-button:active {
+    background-color: #008552;
+  }
+
+  .works-button:enabled {
+    background-color: #36b37f;
+  }
+
+  .get-resume:hover {
+    background-color: #36b37f;
+  }
+
+  .get-resume:active {
+    background-color: #008552;
+  }
+
+  .get-resume:enabled {
+    background-color: #36b37f;
+  }
+
+  .contact-form {
+    background: url("../images/bg1\ for\ contact.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 80px left 1px;
+  }
 }
