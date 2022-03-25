@@ -12,19 +12,12 @@ body {
   min-width: 375px;
 }
 
-/* .container{
-  margin-left: 5px;
-  margin-right: 5px;
-} */
-
 .nav-flex {
   text-align: center;
   margin: 0;
   padding-right: 2%;
   padding-left: 2%;
   max-width: 375px;
-
-  /* margin-bottom: 320px; */
   min-width: 375px;
 }
 
@@ -441,9 +434,6 @@ nav .nav-right {
 
 .contact-form {
   width: 375px;
-  background: url("../images/illustration-contact-form.svg");
-  background-repeat: no-repeat;
-  background-position: bottom 170px right 1px;
   margin-top: 5px;
 }
 
@@ -494,11 +484,20 @@ form {
   color: #fff;
   align-items: center;
   text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .get-in-touch:hover {
-  background-color: #2d7d5d;
-  transition: all 0.3s;
+  background-color: #36b37f;
+}
+
+.get-in-touch:active {
+  background-color: #008552;
+}
+
+.get-in-touch:enabled {
+  background-color: #36b37f;
 }
 
 .icon-resize {
@@ -545,9 +544,10 @@ hr {
 /* --------media queries----- */
 @media (min-width: 768px) {
   body {
-    background-image: url(../images/Header-llustration-desktop.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* background-image: url(../images/Header-llustration-desktop.svg); */
+
+    /* background-size: contain;
+    background-repeat: no-repeat; */
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
 
@@ -570,7 +570,10 @@ hr {
   .nav-flex {
     min-width: 100%;
     margin: auto;
-    height: 1000px;
+    height: 1020px;
+    background-image: url(../images/Header-llustration-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .nav-middle ul {
@@ -601,10 +604,6 @@ hr {
   .home-content {
     background-image: none;
     width: 920px;
-
-    /* height: 920px; */
-
-    /* height: px; */
     padding-top: 100px;
     margin: auto;
   }
@@ -659,11 +658,11 @@ hr {
   }
 
   .my-recent-works {
-    margin-top: 330px;
     width: 447px;
     height: 80px;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 560px;
   }
 
   .my-recent-works h3 {
@@ -681,6 +680,7 @@ hr {
     min-width: 1171px;
     min-height: 1020px;
     margin: auto;
+    margin-top: 120px;
   }
 
   .works .work-1,
@@ -730,6 +730,7 @@ hr {
 
   .get-resume {
     transition: 0.5s;
+    cursor: pointer;
   }
 
   .about-me .get-resume {
@@ -758,6 +759,9 @@ hr {
     height: 490px;
     gap: 10px;
     grid-template-columns: 1fr 2fr;
+    background-image: url('../images/bg\ 2\ for\ contact.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 0 left 200px;
   }
 
   .contact-form .contact-me {
@@ -820,24 +824,6 @@ hr {
     margin-left: 580px;
   }
 
-  .contact-illus-1 {
-    height: 160px;
-    width: 110px;
-    margin-top: 0;
-    padding-top: 0;
-
-    /* background-image: url('../images/contact\ illus-1.svg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 5px 10px;
-  }
-
-  .contact-illus-2 {
-    height: 50px;
-    width: 10px;
-    margin-left: 13px;
-  }
-
   .form-group #fullname {
     display: none;
   }
@@ -863,14 +849,37 @@ hr {
   }
 
   .works-button {
+    cursor: pointer;
     transition: 0.5s;
   }
 
   .works-button:hover {
-    background-color: green;
+    background-color: #36b37f;
+  }
+
+  .works-button:active {
+    background-color: #008552;
+  }
+
+  .works-button:enabled {
+    background-color: #36b37f;
   }
 
   .get-resume:hover {
-    background-color: rgb(141, 12, 12);
+    background-color: #36b37f;
+  }
+
+  .get-resume:active {
+    background-color: #008552;
+  }
+
+  .get-resume:enabled {
+    background-color: #36b37f;
+  }
+
+  .contact-form {
+    background: url("../images/bg1\ for\ contact.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 80px left 1px;
   }
 }
