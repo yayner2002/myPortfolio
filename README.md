@@ -1,6 +1,6 @@
-# Portfolio: setup and mobile version skeleton
+# Portfolio: setup the desktop version
 
-> Setup a Portfolio: setup and mobile version skeleton.
+> Desktop version of the portfolio and mobile version.
 
 
 ## Built With

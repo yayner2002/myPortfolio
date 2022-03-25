@@ -12,6 +12,11 @@ body {
   min-width: 375px;
 }
 
+/* .container{
+  margin-left: 5px;
+  margin-right: 5px;
+} */
+
 .nav-flex {
   text-align: center;
   margin: 0;
@@ -125,7 +130,7 @@ nav .nav-right {
   background-repeat: no-repeat;
   background-position: 50px 10px;
   padding-top: 50px;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   text-align: center;
   display: flex;
@@ -246,7 +251,9 @@ nav .nav-right {
 .my-works {
   max-width: 375px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .my-works .indicator {
@@ -299,6 +306,8 @@ nav .nav-right {
   background-repeat: no-repeat;
   background-size: 100px 50px;
   background-position: bottom left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .about-me-text {
@@ -340,6 +349,8 @@ nav .nav-right {
   grid-template-columns: 1fr;
   gap: 10px;
   width: 375px;
+  padding-left: 16px;
+  padding-right: 10px;
 }
 
 .my-knowledge .flex-languages ul {
@@ -386,7 +397,9 @@ nav .nav-right {
   background-color: #ebf0ee;
   padding: 10px;
   height: 352px;
-  margin: 10px;
+  margin-top: 10px;
+
+  /* margin-right: 20px; */
 }
 
 .contact-me {
@@ -557,7 +570,7 @@ hr {
   .nav-flex {
     min-width: 100%;
     margin: auto;
-    height: 1115px;
+    height: 1000px;
   }
 
   .nav-middle ul {
@@ -588,7 +601,10 @@ hr {
   .home-content {
     background-image: none;
     width: 920px;
-    height: 920px;
+
+    /* height: 920px; */
+
+    /* height: px; */
     padding-top: 100px;
     margin: auto;
   }
@@ -643,7 +659,7 @@ hr {
   }
 
   .my-recent-works {
-    margin-top: 500px;
+    margin-top: 330px;
     width: 447px;
     height: 80px;
     padding-bottom: 0;
