@@ -610,11 +610,13 @@ hr {
 
   .nav-middle ul li {
     padding: 0.5rem;
-    margin-right: 25px;
+    margin: 0 25px;
     font-size: 16px;
     font-weight: 600;
     color: #344563;
     font-family: "Inter", sans-serif;
+    position: relative;
+    cursor: pointer;
   }
 
   .home-content {
@@ -678,7 +680,7 @@ hr {
     height: 80px;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 560px;
+    margin-top: 530px;
   }
 
   .my-recent-works h3 {
@@ -832,8 +834,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 6px right -25px;
-    margin-bottom: 100px;
+    background-position: bottom 60px right -25px;
   }
 
   .contact-container .social-icons {
@@ -906,15 +907,6 @@ hr {
     transform: scale(0.9);
   }
 
-  .nav-middle li:hover,
-  .nav-middle li:focus {
-    background-color: #008552;
-    color: #fff;
-    padding: 0.5rem;
-    text-align: center;
-    transition: 0.5s;
-  }
-
   .work-1:hover,
   .work-2:hover,
   .work-3:hover,
@@ -923,5 +915,20 @@ hr {
   .work-6:hover {
     transform: scale(0.8);
     transition: 0.5s;
+  }
+
+  .nav-middle ul li::after {
+    content: '';
+    width: 0;
+    background: #008552;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+  }
+
+  .nav-middle ul li:hover::after {
+    width: 100%;
   }
 }
