@@ -121,7 +121,7 @@ nav .nav-right {
   background-image: url("../images/header-illsutration-mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 50px 10px;
+  background-position: top 0 right 0;
   padding-top: 50px;
   height: 100%;
   align-items: center;
@@ -273,6 +273,34 @@ nav .nav-right {
   padding-bottom: 15px;
 }
 
+.work-1:hover,
+.work-2:hover,
+.work-3:hover,
+.work-4:hover,
+.work-5:hover,
+.work-6:hover {
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+.my-knowledge .languages,
+.frameworks,
+.skills {
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  background-color: #ebf0ee;
+  padding: 10px;
+  height: 352px;
+  margin-top: 10px;
+}
+
+.languages:hover,
+.skills:hover,
+.frameworks:hover {
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+
 .works .img-holder {
   width: 100%;
   height: 220px;
@@ -380,19 +408,6 @@ nav .nav-right {
 
 .flex-skills {
   margin-bottom: 100px;
-}
-
-.my-knowledge .languages,
-.frameworks,
-.skills {
-  border-radius: 8px;
-  border: 1px solid #d0d9d4;
-  background-color: #ebf0ee;
-  padding: 10px;
-  height: 352px;
-  margin-top: 10px;
-
-  /* margin-right: 20px; */
 }
 
 .contact-me {
@@ -817,7 +832,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 2px right -25px;
+    background-position: bottom 6px right -25px;
     margin-bottom: 100px;
   }
 
