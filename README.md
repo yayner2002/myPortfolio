@@ -6,7 +6,7 @@
 - CSS
 ## Live Demo
 
-[Live Demo Link](https://yayner2002.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 ## Getting Started
 
 **To setup this project locally, you need to download or clone this repo first. Then open the a.html file using your favorite browser.**
