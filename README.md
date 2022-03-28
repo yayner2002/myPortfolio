@@ -1,6 +1,6 @@
-# Portfolio: setup the desktop version
+# My Portfolio Website
 
-> Desktop version of the portfolio and mobile version.
+> Desktop and mbile version of my portfolio.
 
 
 ## Built With
@@ -25,13 +25,13 @@ none
 
 - GitHub: [@Yayner2002](https://github.com/Yayner2002)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
+- LinkedIn: [https://www.linkedin.com/in/yaynshet-medhin-520875127/](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yayner2002/myPortfolio/issues/).
 
 ## Show your support
 
