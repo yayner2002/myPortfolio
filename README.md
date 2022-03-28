@@ -1,21 +1,16 @@
 # Portfolio: setup the desktop version
 
-> Desktop version of the portfolio and mobile version.
-
-
+> Desktop and mobile version of the portfolio website.
 ## Built With
-
 - HTML
 - CSS
+## Live Demo
 
-
+[Live Demo Link](https://yayner2002.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 ## Getting Started
 
 **To setup this project locally, you need to download or clone this repo first. Then open the a.html file using your favorite browser.**
 **To get a local copy up and running follow these simple example steps. -clone the repo or download the source code -install favorite editor -install favorite browser**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 none
@@ -24,7 +19,7 @@ none
 👤 **@Yayner2002**
 
 - GitHub: [@Yayner2002](https://github.com/Yayner2002)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@wediagazian](https://twitter.com/wediagazian)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
 
 ## 🤝 Contributing
