@@ -1,6 +1,6 @@
-# Portfolio: setup the desktop version
+# Personal Portfolio
 
-> Desktop and mobile version of the portfolio website.
+> Desktop and mobile version of the my personal portfolio website.
 ## Built With
 - HTML
 - CSS
@@ -20,13 +20,13 @@ none
 
 - GitHub: [@Yayner2002](https://github.com/Yayner2002)
 - Twitter: [@wediagazian](https://twitter.com/wediagazian)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
+- LinkedIn: [https://www.linkedin.com/in/yaynshet-medhin-520875127/](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yayner2002/myPortfolio/issues/).
 
 ## Show your support
 
