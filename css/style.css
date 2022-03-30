@@ -12,6 +12,10 @@ body {
   min-width: 375px;
 }
 
+h1 {
+  font-size: 29px;
+}
+
 .nav-flex {
   text-align: center;
   margin: 0;
@@ -946,7 +950,7 @@ hr {
   }
 
   .nav-middle ul li::after {
-    content: '';
+    content: "";
     width: 0;
     background: #008552;
     height: 3px;
