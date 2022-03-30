@@ -12,6 +12,10 @@ body {
   min-width: 375px;
 }
 
+h1 {
+  font-size: 29px;
+}
+
 .nav-flex {
   text-align: center;
   margin: 0;
@@ -169,7 +173,7 @@ nav .nav-right {
 }
 
 .home-content .primary .software-dev {
-  color: #36b37f;
+  color: #04a05f;
   margin-top: 10px;
   font-weight: 700;
   line-height: 52px;
@@ -216,8 +220,6 @@ nav .nav-right {
   padding-top: 20px;
   width: 327px;
   height: 97px;
-
-  /* margin-bottom: 50%; */
 }
 
 .action {
@@ -309,13 +311,18 @@ nav .nav-right {
   background-color: #ebf0ee;
 }
 
+.works-button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .posts .works-button {
   padding: 10px;
   color: #fff;
   margin: 30px 0;
   outline: none;
   border: none;
-  background: #36b37f;
+  background: #04f38b88;
   border-radius: 4px;
   font-size: 20px;
 }
@@ -359,7 +366,7 @@ nav .nav-right {
   margin: 20px 0;
   outline: none;
   border: none;
-  background: #36b37f;
+  background: #03442a;
   border-radius: 4px;
   font-weight: 500;
   font-size: 17px;
@@ -394,7 +401,7 @@ nav .nav-right {
 .my-knowledge .flex-skills ul li,
 .my-knowledge .flex-frameworks ul li,
 .my-knowledge .flex-languages ul li {
-  color: #36b37f;
+  color: #037244;
   background: #fff;
   padding: 10px;
   border-radius: 8px;
@@ -488,7 +495,7 @@ form {
 .get-in-touch {
   font-size: 17px;
   font-weight: bolder;
-  background-color: #36b37f;
+  background-color: #033a23;
   padding: 12px;
   border-radius: 4px;
   width: 129px;
@@ -505,6 +512,7 @@ form {
 
 .get-in-touch:hover {
   background-color: #36b37f;
+  box-shadow: 0 0 0 0.3em #008552;
 }
 
 .get-in-touch:active {
@@ -512,7 +520,7 @@ form {
 }
 
 .get-in-touch:enabled {
-  background-color: #36b37f;
+  background-color: #03442a;
 }
 
 .icon-resize {
@@ -534,8 +542,6 @@ form {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-
-  /* border: 2px solid black; */
   margin: 0 10px;
 }
 
@@ -556,27 +562,51 @@ hr {
   display: none;
 }
 
+.desktop-screen {
+  display: none;
+}
+
+.letter-m-icon {
+  align-self: center;
+  margin-top: 2px;
+}
+
+.works-button:hover {
+  background-color: #36b37f;
+  box-shadow: 0 0 0 0.3em #008552;
+}
+
+.works-button:active {
+  background-color: #03442a;
+}
+
+.works-button:enabled {
+  background-color: #03442a;
+}
+
+.get-resume:hover {
+  background-color: #36b37f;
+  box-shadow: 0 0 0 0.3em #008552;
+}
+
+.get-resume:active {
+  background-color: #03442a;
+}
+
+.get-resume:enabled {
+  background-color: #03442a;
+}
+
 /* --------media queries----- */
 @media (min-width: 768px) {
   body {
-    /* background-image: url(../images/Header-llustration-desktop.svg); */
-
-    /* background-size: contain;
-    background-repeat: no-repeat; */
     font-family: "Inter", sans-serif;
     font-family: "Poppins", sans-serif;
-
-    /* border: 1px solid yellow; */
   }
 
   .container {
     width: 100%;
     margin: auto;
-    margin-top: 10px;
-
-    /* border: 10px solid black; */
-
-    /* background-image: url('../images/Frame(1).svg'); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom 1px left 20px;
@@ -659,7 +689,7 @@ hr {
 
   .home-content .primary h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 0.8em;
     font-weight: 700;
     color: #172b4d;
@@ -834,7 +864,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 7px right -25px;
+    background-position: bottom 6px right -25px;
   }
 
   .contact-container .social-icons {
@@ -872,6 +902,7 @@ hr {
 
   .works-button:hover {
     background-color: #36b37f;
+    box-shadow: 0 0 0 0.3em #008552;
   }
 
   .works-button:active {
@@ -879,19 +910,20 @@ hr {
   }
 
   .works-button:enabled {
-    background-color: #36b37f;
+    background-color: #03442a;
   }
 
   .get-resume:hover {
     background-color: #36b37f;
+    box-shadow: 0 0 0 0.3em #008552;
   }
 
   .get-resume:active {
-    background-color: #008552;
+    background-color: #03442a;
   }
 
   .get-resume:enabled {
-    background-color: #36b37f;
+    background-color: #03442a;
   }
 
   .contact-form {
@@ -918,7 +950,7 @@ hr {
   }
 
   .nav-middle ul li::after {
-    content: '';
+    content: "";
     width: 0;
     background: #008552;
     height: 3px;
@@ -930,5 +962,13 @@ hr {
 
   .nav-middle ul li:hover::after {
     width: 100%;
+  }
+
+  .small-screen {
+    display: none;
+  }
+
+  .desktop-screen {
+    display: inline-block;
   }
 }
