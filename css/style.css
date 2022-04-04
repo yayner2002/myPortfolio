@@ -125,7 +125,7 @@ nav .nav-right {
   background-image: url("../images/header-illsutration-mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top 0 right 0;
+  background-position: right 10px;
   padding-top: 50px;
   height: 100%;
   align-items: center;
@@ -165,7 +165,7 @@ nav .nav-right {
   color: #172b4d;
 }
 
-.home-content .primary h2 {
+.home-content .primary h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.3em;
@@ -183,7 +183,6 @@ nav .nav-right {
 .home-content .supporting {
   height: 164px;
   width: 327px;
-  margin-top: 70px;
   margin-bottom: 20px;
 }
 
@@ -201,12 +200,13 @@ nav .nav-right {
   font-size: 20px;
   text-align: center;
   line-height: 28px;
+  margin: 50px auto;
 }
 
 .social-icons {
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: 18px;
+  padding-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -572,16 +572,15 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  padding-top: 92px;
+  padding-top: 50px;
   padding-left: 18px;
-  margin: 0 12px;
   background: #fff;
   z-index: 10;
 }
 
-.nav-middle.show ul li {
+.nav-middle.show ul li a {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 600;
   color: #3a4a42;
 }
 
@@ -601,8 +600,8 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 8%;
-  top: 3%;
+  right: 9%;
+  top: 4%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
   background-repeat: no-repeat;
@@ -756,8 +755,7 @@ hr {
     width: 447px;
     height: 80px;
     padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 530px;
+    margin-top: 400px;
   }
 
   .my-recent-works h3 {
