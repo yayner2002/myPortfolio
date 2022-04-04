@@ -1,11 +1,9 @@
 # My Portfolio Website
-
 > Desktop and mbile version of my portfolio.
 ## Built With
 - HTML
 - CSS
 ## Live Demo
-
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 ## Getting Started
 
