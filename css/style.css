@@ -596,7 +596,7 @@ hr {
 .menu.show {
   position: fixed;
   right: 8%;
-  top: 2%;
+  top: 3%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
   background-repeat: no-repeat;
