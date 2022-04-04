@@ -596,7 +596,7 @@ hr {
 .get-resume:enabled {
   background-color: #03442a;
 }
-
+/* stylelint-disable-next-line comment-empty-line-before */
 /* --------media queries----- */
 @media (min-width: 768px) {
   body {
