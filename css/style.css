@@ -233,7 +233,7 @@ nav .nav-right {
 
 /* ---------------------mobile version------------ */
 
-.my-works .posts h2 {
+.works .posts h2 {
   margin-bottom: 20px;
   margin-top: 30px;
   text-align: center;
@@ -243,24 +243,21 @@ nav .nav-right {
   color: #3a4a42;
 }
 
-.my-works {
+.works {
   max-width: 375px;
   text-align: center;
   margin-top: 70px;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.my-works .indicator {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.works {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 10px;
+}
+
+.works .indicator {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .work-1,
@@ -769,13 +766,6 @@ hr {
     display: none;
   }
 
-  .my-works {
-    min-width: 1171px;
-    min-height: 1020px;
-    margin: auto;
-    margin-top: 120px;
-  }
-
   .works .work-1,
   .works .work-2,
   .works .work-3,
@@ -790,6 +780,10 @@ hr {
     display: grid;
     gap: 12px;
     grid-template-columns: 1fr 1fr 1fr;
+    min-width: 1171px;
+    min-height: 1020px;
+    margin: auto;
+    margin-top: 120px;
   }
 
   .about-me {
@@ -909,7 +903,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 6px right -25px;
+    background-position: bottom 60px right -25px;
   }
 
   .contact-container .social-icons {
@@ -1015,5 +1009,9 @@ hr {
 
   .desktop-screen {
     display: inline-block;
+  }
+
+  .show {
+    display: none;
   }
 }
