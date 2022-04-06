@@ -13,8 +13,8 @@ lists.forEach((list) => list.addEventListener('click', toggleMenu));
 const projectDetail = [{
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -26,8 +26,8 @@ const projectDetail = [{
 {
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -39,8 +39,8 @@ const projectDetail = [{
 {
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -52,8 +52,8 @@ const projectDetail = [{
 {
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -65,8 +65,8 @@ const projectDetail = [{
 {
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -78,8 +78,8 @@ const projectDetail = [{
 {
   title: 'Multi-Post Stories Gain+Glory',
   popTitle: 'Keeping track of hundreds of components',
-  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  technologies: ['Ruby on rails', 'css', 'JavScript', 'html'],
+  popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   imagePlaceholder: './images/Img Plaholder.png',
   imageMobile: './images/Img Plaholder.png',
@@ -116,61 +116,58 @@ for (let i = 0; i < projectDetail.length; i += 1) {
 // ----display popup modal---
 const popupModal = document.querySelector('#portfolioPopup');
 const closePopup = document.querySelector('.close-popup');
+const closePopupImage = document.getElementById('closePopupImage');
 const displayPopupModal = (i) => {
+  const navRight = document.querySelector('.nav-right');
+  navRight.style.display = 'none';
+  let popupTech = '';
   let tech = '';
-  let techPop = '';
-  let experienceList = '';
-
   for (let j = 0; j < projectDetail[i].technologies.length; j += 1) {
-    tech += `<li class="technology"><a href="#">${projectDetail[i].technologies[j]}</a></li>`;
+    tech += `<li>${projectDetail[i].technologies[j]}</li>`;
   }
-
   for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
-    techPop += `<li class="lang-group" id="mobile">${projectDetail[i].popupTech[j]}</li>`;
-  }
-
-  for (let k = 0; k < projectDetail[i].exprience.length; k += 1) {
-    experienceList += (k === 0) ? `<li class="list-main">${projectDetail[i].exprience[k]}</li>` : `<li class="titles-item">${projectDetail[i].exprience[k]}</li>`;
+    popupTech += `<li class="technology-list-popup">${projectDetail[i].popupTech[j]}</li>`;
   }
   document.querySelector('#portfolioPopup').innerHTML = `
-  <div class="works-flex">
-      <div>
-        <div class="works-flex-pop">
-          <h3 class="intro-text-works">${projectDetail[i].title}</h3>
-          <span> <a href="" class="close-popup">X</a></span>
-      </div>
-      <ul class="works-flex-item titles-container">
-      ${experienceList}
-      </ul>
-      </div>
-      <div class="works-flex-item work-image">
-          <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" alt="${projectDetail[i].title} project screenshot"/>
-          <img src="${projectDetail[i].imagePopup}" class="desk-item1" alt="${projectDetail[i].title} project screenshot"/>
-      </div>
-      <div class="project-tags">
-          <div class="work-description">
-            <p class="works-flex-item works-description">
-              ${projectDetail[i].popDescription}
-            </p>
-          </div>
-          <div class="tags">
-              <ul class="lang-container mobile">
-              ${tech}
-              </ul>
-              <ul class="lang-container">
-              ${techPop}
-              </ul>
-              <div class="btn-tags">
-                <a href="${projectDetail[i].seeLive}" class="btn-see-project">See Live
-                  <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-                <a href="${projectDetail[i].seeSource}" class="btn-see-project">See Source
-                  <i class="fa fa-github-square" aria-hidden="true"></i>
-                </a>
+  <div class="works-popup">
+          <span><a href="" class="close-popup">X</a></span>
+        <div class="popup-container"
+            <div class="work-popup-image">
+                <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" id="closePopupImage" alt="${projectDetail[i].title} project screenshot"/>
+                <img src="${projectDetail[i].imagePopup}" class="desk-item1" alt="${projectDetail[i].title} project screenshot"/>
             </div>
+            <div class="project-title-and-see-live-source">
+              <div class="display-left">
+                 <span>${projectDetail[i].popTitle}</span>
+              </div> 
+              <div class="display-right"> 
+                <span><a href="${projectDetail[i].seeLive}" class="works-button-see-live">See Live
+                <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+                <span><a href="${projectDetail[i].seeSource}" class="works-button-see-live">See Source
+                <i class="fa-brands fa-github"></i></a></span>
+              </div>
+              <div class="popup-mobile-technology">
+               <ul>
+                 <li>${tech}</li>
+               </ul>
+              </div>
+            </div>
+            <div class="popup-technology-list-container">
+               <ul>
+                 ${popupTech}
+               </ul>
+            </div>
+            <div class="popup-description-container">
+               <p>${projectDetail[i].popDescription}</p>
+            </div>
+            <div class="display-right mobile"> 
+              <span><a href="${projectDetail[i].seeLive}" class="works-button-see-live">See Live
+              <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+              <span><a href="${projectDetail[i].seeSource}" class="works-button-see-live">See Source
+              <i class="fa-brands fa-github"></i></a></span>
           </div>
-      </div>
-      </div>
+        </div>
+  </div>
   `;
   popupModal.style.display = 'block';
 };
@@ -181,5 +178,6 @@ const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
+closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
