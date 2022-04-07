@@ -180,3 +180,28 @@ const closePopupModal = () => {
 closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
+// ---implement local storage----------
+const fullName = document.getElementById('fullname');
+const firstName = document.getElementById('firstname');
+const lastName = document.getElementById('lastname');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
+function preserveData() {
+  const userObject = {
+    firstName: firstName.value,
+    lastName: lastName.value,
+    fullName: fullName.value,
+    message: message.value,
+    email: email.value,
+  };
+  localStorage.setItem('userInfo', JSON.stringify(userObject));
+}
+window.addEventListener('load', preserveData);
+
+const objParsed = JSON.parse(localStorage.getItem('userInfo'));
+firstName.value = objParsed.firstName;
+lastName.value = objParsed.lastName;
+message.value = objParsed.message;
+email.value = objParsed.email;
+fullName.value = objParsed.fullName;
