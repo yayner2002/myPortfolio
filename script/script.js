@@ -6,6 +6,5 @@ function toggleMenu() {
   navMiddle.classList.toggle('show');
   menu.classList.toggle('show');
 }
-
 menu.addEventListener('click', toggleMenu);
 lists.forEach((list) => list.addEventListener('click', toggleMenu));
