@@ -180,3 +180,22 @@ const closePopupModal = () => {
 closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
+// ----form validation----
+const emailInputField = document.getElementById('email');
+const formElement = document.getElementById('my-form');
+const displayErrorElement = document.getElementById('display-error');
+
+displayErrorElement.innerHTML = 'The email Field must be written in lowercase !!!';
+
+formElement.addEventListener('submit', (event) => {
+  if (emailInputField.value === emailInputField.value.toUpperCase()) {
+    displayErrorElement.style.display = 'block';
+    displayErrorElement.classList.toggle('displayErrorMessage');
+    event.preventDefault();
+    setTimeout(() => {
+      displayErrorElement.style.display = 'none';
+    }, 5000);
+  } else {
+    displayErrorElement.style.display = 'none';
+  }
+});

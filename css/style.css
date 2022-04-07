@@ -523,7 +523,7 @@ form {
   width: 129px;
   height: 48px;
   margin-left: 123px;
-  margin-top: 20px;
+  margin-top: 30px;
   border: 1px solid #36b37f;
   color: #fff;
   align-items: center;
@@ -547,7 +547,7 @@ form {
 
 .icon-resize {
   position: absolute;
-  top: 67%;
+  top: 65%;
   right: 16px;
 }
 
@@ -761,6 +761,24 @@ hr {
   display: none;
   background: #c1c7d0;
 }
+
+.displayErrorMessage#display-error {
+  color: #fff;
+  font-size: 12px;
+  background-color: red;
+}
+
+#display-error {
+  visibility: hidden;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 73%;
+  text-align: center;
+  padding: 15px;
+  transition: visibility 30s ease-in-out;
+}
+
 /* stylelint-disable-next-line comment-empty-line-before */
 
 /* --------media queries----- */
@@ -1025,7 +1043,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 60px right -25px;
+    background-position: bottom 60% right 0;
   }
 
   .contact-container .social-icons {
@@ -1048,6 +1066,7 @@ hr {
 
   .get-in-touch {
     margin-left: 15px;
+    margin-top: 30px;
   }
 
   .icon-resize {
@@ -1275,5 +1294,15 @@ hr {
 
   .display-right.mobile {
     display: none;
+  }
+
+  #display-error {
+    display: none;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 53%;
+    padding: 15px;
+    transition: visibility 30s ease-in-out;
   }
 }
