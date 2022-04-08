@@ -197,7 +197,12 @@ function preserveData() {
   };
   localStorage.setItem('userInfo', JSON.stringify(userObject));
 }
-window.addEventListener('load', preserveData);
+fullName.addEventListener('focusout', preserveData);
+firstName.addEventListener('focusout', preserveData);
+lastName.addEventListener('focusout', preserveData);
+email.addEventListener('focusout', preserveData);
+fullName.addEventListener('focusout', preserveData);
+message.addEventListener('focusout', preserveData);
 
 const objParsed = JSON.parse(localStorage.getItem('userInfo'));
 firstName.value = objParsed.firstName;
