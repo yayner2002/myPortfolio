@@ -128,7 +128,7 @@ const displayPopupModal = (i) => {
   }
   document.querySelector('#portfolioPopup').innerHTML = `
   <div class="works-popup">
-          <span><a href="" class="close-popup">X</a></span>
+          <span><a href="" class="close-popup">&times;</a></span>
         <div class="popup-container"
             <div class="work-popup-image">
                 <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" id="closePopupImage" alt="${projectDetail[i].title} project screenshot"/>
