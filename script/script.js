@@ -226,4 +226,3 @@ lastName.value = objParsed.lastName;
 message.value = objParsed.message;
 email.value = objParsed.email;
 fullName.value = objParsed.fullName;
-
