@@ -115,7 +115,7 @@ for (let i = 0; i < projectDetail.length; i += 1) {
 // ----display popup modal---
 const popupModal = document.querySelector('#portfolioPopup');
 const closePopup = document.querySelector('.close-popup');
-const closePopupImage = document.getElementById('closePopupImage');
+// const closePopupImage = document.getElementById('closePopupImage');
 const displayPopupModal = (i) => {
   const navRight = document.querySelector('.nav-right');
   navRight.style.display = 'none';
@@ -177,7 +177,7 @@ const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
-closePopupImage.addEventListener('click', closePopupModal);
+// closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
 // ----form validation----
@@ -185,13 +185,13 @@ const emailInputField = document.getElementById('email');
 const formElement = document.getElementById('my-form');
 const displayErrorElement = document.getElementById('display-error');
 
-displayErrorElement.innerHTML = 'The email Field must be written in lowercase !!!';
+displayErrorElement.innerHTML = 'The email Field must be lowercase!';
 
 formElement.addEventListener('submit', (event) => {
-  if (emailInputField.value === emailInputField.value.toUpperCase()) {
-    displayErrorElement.style.display = 'block';
-    displayErrorElement.classList.toggle('displayErrorMessage');
+  if (emailInputField.value !== emailInputField.value.toLowerCase()) {
     event.preventDefault();
+    displayErrorElement.style.display = 'block';
+    displayErrorElement.classList.add('displayErrorMessage');
     setTimeout(() => {
       displayErrorElement.style.display = 'none';
     }, 5000);
