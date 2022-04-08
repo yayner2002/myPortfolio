@@ -115,6 +115,10 @@ nav .nav-left {
   padding: 8px;
 }
 
+.social-icons li:hover {
+  transform: translateY(-10px);
+}
+
 .popup-mobile-technology ul li:first-child {
   display: none;
 }
@@ -234,6 +238,29 @@ nav .nav-right {
   color: #505f79;
 }
 
+.social-icons ul li a {
+  transition: 0.2s ease-in-out;
+}
+
+.my-recent-works img {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.social-icons li a:hover {
+  transform: translateY(-10px);
+}
+
+.languages img,
+.frameworks img,
+.skills img {
+  text-align: center;
+}
+
+.social-icons li img:hover {
+  transform: translateY(-10px);
+}
+
 .my-recent-works {
   padding-top: 20px;
   width: 327px;
@@ -242,11 +269,6 @@ nav .nav-right {
 
 .action {
   margin-bottom: 5px;
-}
-
-.my-recent-works img {
-  margin-top: 20px;
-  margin-bottom: 50px;
 }
 
 /* ---------------------mobile version------------ */
@@ -460,12 +482,6 @@ nav .nav-right {
   font-weight: 700;
   font-size: 30px;
   padding-left: 20px;
-}
-
-.languages img,
-.frameworks img,
-.skills img {
-  text-align: center;
 }
 
 /* --------------------end of mobile version-------- */
@@ -1045,7 +1061,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 60% right 0;
+    background-position: bottom 60px right 0;
   }
 
   .contact-container .social-icons {
@@ -1141,7 +1157,10 @@ hr {
     bottom: -2px;
     transition: 0.5s;
   }
-
+.nav-middle ul li{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
   .nav-middle ul li:hover::after {
     width: 100%;
   }

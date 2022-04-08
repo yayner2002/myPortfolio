@@ -114,7 +114,6 @@ for (let i = 0; i < projectDetail.length; i += 1) {
 }
 // ----display popup modal---
 const popupModal = document.querySelector('#portfolioPopup');
-const closePopup = document.querySelector('.close-popup');
 const displayPopupModal = (i) => {
   const navRight = document.querySelector('.nav-right');
   navRight.style.display = 'none';
@@ -128,7 +127,7 @@ const displayPopupModal = (i) => {
   }
   document.querySelector('#portfolioPopup').innerHTML = `
   <div class="works-popup">
-          <span><a href="" class="close-popup">&times;</a></span>
+          <span><a href="" onclick="closePopupModal()" class="close-popup">&times;</a></span>
         <div class="popup-container"
             <div class="work-popup-image">
                 <img src="${projectDetail[i].imageMobilePopup}" class="flex-item1" id="closePopupImage" alt="${projectDetail[i].title} project screenshot"/>
@@ -173,17 +172,17 @@ const displayPopupModal = (i) => {
 document.querySelectorAll('.works-button').forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))));
 
 const closeModal = document.querySelector('#portfolioPopup');
+// eslint-disable-next-line no-unused-vars
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
-closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
 // ----form validation----
 const emailInputField = document.getElementById('email');
 const formElement = document.getElementById('my-form');
 const displayErrorElement = document.getElementById('display-error');
 
-displayErrorElement.innerHTML = 'The email Field must be lowercase!';
+displayErrorElement.innerHTML = 'The email Field must be in lowercase!!!';
 
 formElement.addEventListener('submit', (event) => {
   if (emailInputField.value !== emailInputField.value.toLowerCase()) {
@@ -192,7 +191,7 @@ formElement.addEventListener('submit', (event) => {
     displayErrorElement.classList.add('displayErrorMessage');
     setTimeout(() => {
       displayErrorElement.style.display = 'none';
-    }, 5000);
+    }, 4000);
   } else {
     displayErrorElement.style.display = 'none';
   }
