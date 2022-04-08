@@ -6,7 +6,6 @@ function toggleMenu() {
   navMiddle.classList.toggle('show');
   menu.classList.toggle('show');
 }
-
 menu.addEventListener('click', toggleMenu);
 lists.forEach((list) => list.addEventListener('click', toggleMenu));
 // ----------project detail object------
@@ -116,7 +115,6 @@ for (let i = 0; i < projectDetail.length; i += 1) {
 // ----display popup modal---
 const popupModal = document.querySelector('#portfolioPopup');
 const closePopup = document.querySelector('.close-popup');
-const closePopupImage = document.getElementById('closePopupImage');
 const displayPopupModal = (i) => {
   const navRight = document.querySelector('.nav-right');
   navRight.style.display = 'none';
@@ -178,6 +176,34 @@ const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
-closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
+// ---implement local storage----------
+const fullName = document.getElementById('fullname');
+const firstName = document.getElementById('firstname');
+const lastName = document.getElementById('lastname');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
+function preserveData() {
+  const userObject = {
+    firstName: firstName.value,
+    lastName: lastName.value,
+    fullName: fullName.value,
+    message: message.value,
+    email: email.value,
+  };
+  localStorage.setItem('userInfo', JSON.stringify(userObject));
+}
+firstName.addEventListener('focusout', preserveData);
+lastName.addEventListener('focusout', preserveData);
+email.addEventListener('focusout', preserveData);
+fullName.addEventListener('focusout', preserveData);
+message.addEventListener('focusout', preserveData);
+
+const objParsed = JSON.parse(localStorage.getItem('userInfo'));
+firstName.value = objParsed.firstName;
+lastName.value = objParsed.lastName;
+message.value = objParsed.message;
+email.value = objParsed.email;
+fullName.value = objParsed.fullName;
