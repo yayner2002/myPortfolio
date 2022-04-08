@@ -115,7 +115,6 @@ for (let i = 0; i < projectDetail.length; i += 1) {
 // ----display popup modal---
 const popupModal = document.querySelector('#portfolioPopup');
 const closePopup = document.querySelector('.close-popup');
-const closePopupImage = document.getElementById('closePopupImage');
 const displayPopupModal = (i) => {
   const navRight = document.querySelector('.nav-right');
   navRight.style.display = 'none';
@@ -177,7 +176,6 @@ const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
-closePopupImage.addEventListener('click', closePopupModal);
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
 // ---implement local storage----------
@@ -197,7 +195,6 @@ function preserveData() {
   };
   localStorage.setItem('userInfo', JSON.stringify(userObject));
 }
-fullName.addEventListener('focusout', preserveData);
 firstName.addEventListener('focusout', preserveData);
 lastName.addEventListener('focusout', preserveData);
 email.addEventListener('focusout', preserveData);
