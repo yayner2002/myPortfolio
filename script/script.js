@@ -178,6 +178,25 @@ const closePopupModal = () => {
 };
 closePopup.addEventListener('click', closePopupModal);
 /* End of display popup modal */
+// ----form validation----
+const emailInputField = document.getElementById('email');
+const formElement = document.getElementById('my-form');
+const displayErrorElement = document.getElementById('display-error');
+
+displayErrorElement.innerHTML = 'The email Field must be lowercase!';
+
+formElement.addEventListener('submit', (event) => {
+  if (emailInputField.value !== emailInputField.value.toLowerCase()) {
+    event.preventDefault();
+    displayErrorElement.style.display = 'block';
+    displayErrorElement.classList.add('displayErrorMessage');
+    setTimeout(() => {
+      displayErrorElement.style.display = 'none';
+    }, 5000);
+  } else {
+    displayErrorElement.style.display = 'none';
+  }
+});
 // ---implement local storage----------
 const fullName = document.getElementById('fullname');
 const firstName = document.getElementById('firstname');

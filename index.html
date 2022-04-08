@@ -174,13 +174,17 @@
                 </h3>
               </div>
             </section>
-            <form action="https://formspree.io/f/xzbovozj" method="post" class="my-form">
+            <form
+              action="https://formspree.io/f/xzbovozj"
+              method="post"
+              id="my-form"
+              class="form my-form"
+            >
               <div class="form-group">
                 <label for="fullname">Full Name</label>
                 <input
                   type="text"
                   placeholder="Full Name"
-                  required
                   name="fullname"
                   maxlength="30"
                   id="fullname"
@@ -193,7 +197,6 @@
                     type="text"
                     name="firstname"
                     id="firstname"
-                    required
                     placeholder="First Name"
                   />
                 </div>
@@ -203,7 +206,6 @@
                     type="text"
                     name="lastname"
                     id="lastname"
-                    required
                     placeholder="Last Name"
                   />
                 </div>
@@ -214,10 +216,11 @@
                   type="email"
                   name="email"
                   id="email"
-                  required
                   placeholder="Email Address"
+                  class="form-control"
                 />
               </div>
+              <span id="display-error"></span>
               <div class="form-group">
                 <label for="message">Leave A Message</label>
                 <textarea
@@ -227,9 +230,9 @@
                   cols="30"
                   rows="5"
                   maxlength="500"
-                  required
                 ></textarea>
               </div>
+              
               <button type="submit" class="get-in-touch">Get in touch</button>
               <img
                 src="images/Icon-ResizerHandle.svg"
