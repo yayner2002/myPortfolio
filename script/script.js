@@ -125,7 +125,7 @@ const displayPopupModal = (i) => {
   for (let j = 0; j < projectDetail[i].popupTech.length; j += 1) {
     popupTech += `<li class="technology-list-popup">${projectDetail[i].popupTech[j]}</li>`;
   }
-  document.querySelector('#portfolioPopup').innerHTML = `
+  popupModal.innerHTML = `
   <div class="works-popup">
           <span><a href="" onclick="closePopupModal()" class="close-popup">&times;</a></span>
         <div class="popup-container"

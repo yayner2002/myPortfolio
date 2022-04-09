@@ -1157,10 +1157,13 @@ hr {
     bottom: -2px;
     transition: 0.5s;
   }
-.nav-middle ul li{
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
+
+  /* stylelint-disable-next-line no-duplicate-selectors */
+  .nav-middle ul li {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .nav-middle ul li:hover::after {
     width: 100%;
   }
