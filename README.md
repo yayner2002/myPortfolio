@@ -5,7 +5,7 @@
 - CSS
 - Javascript
 ## Screenshot
-![home page](/images/app_screenshot.png?raw=true "home screenshot")
+![home page](/images/screencapture-file-D-setup-Portfolio-setup-and-mobile-version-skeleton-index-html-2022-05-01-15_52_25.png?raw=true "home screenshot")
 ## Live Demo
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 # Getting Started
