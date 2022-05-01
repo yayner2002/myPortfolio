@@ -3,12 +3,17 @@
 ## Built With
 - HTML
 - CSS
+- Javascript
+## Screenshot
+![home page](/images/app_screenshot.png?raw=true "home screenshot")
 ## Live Demo
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
-## Getting Started
+# Getting Started
 
-**To setup this project locally, you need to download or clone this repo first. Then open the a.html file using your favorite browser.**
-**To get a local copy up and running follow these simple example steps. -clone the repo or download the source code -install favorite editor -install favorite browser**
+* To get a local copy up and running follow these simple example steps.
+
+1. Clone the Repo or Download the Zip file
+2. Run the live server or simply open index.html with your browser.
 
 ### Prerequisites
 none
@@ -18,7 +23,7 @@ none
 
 - GitHub: [@Yayner2002](https://github.com/Yayner2002)
 - Twitter: [@wediagazian](https://twitter.com/wediagazian)
-- LinkedIn: [https://www.linkedin.com/in/yaynshet-medhin-520875127/](https://www.linkedin.com/in/yaynshet-medhin-520875127/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yaynshet-medhin/)
 
 ## 🤝 Contributing
 
