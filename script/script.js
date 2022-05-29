@@ -19,8 +19,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/yayEcommerce/',
+  seeSource: 'https://github.com/yayner2002/yayEcommerce',
 },
 {
   title: 'Multi-Post Stories Gain+Glory',
@@ -32,8 +32,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/to-do-list-app/',
+  seeSource: 'https://github.com/yayner2002/to-do-list-app',
 },
 {
   title: 'Multi-Post Stories Gain+Glory',
@@ -45,8 +45,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/yayEcommerce/',
+  seeSource: 'https://github.com/yayner2002/yayEcommerce',
 },
 {
   title: 'Multi-Post Stories Gain+Glory',
@@ -58,8 +58,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/to-do-list-app/',
+  seeSource: 'https://github.com/yayner2002/to-do-list-app',
 },
 {
   title: 'Multi-Post Stories Gain+Glory',
@@ -71,8 +71,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/yayEcommerce/',
+  seeSource: 'https://github.com/yayner2002/yayEcommerce',
 },
 {
   title: 'Multi-Post Stories Gain+Glory',
@@ -84,8 +84,8 @@ const projectDetail = [{
   imageMobile: './images/Img Plaholder.png',
   imagePopup: './images/Snapshoot Portfoliodesktop.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/myPortfolio/',
-  seeSource: 'https://github.com/yayner2002/myPortfolio',
+  seeLive: 'https://yayner2002.github.io/yayEcommerce/',
+  seeSource: 'https://github.com/yayner2002/yayEcommerce',
 },
 ];
 // -------------End of project detail object-----
