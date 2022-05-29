@@ -166,6 +166,7 @@ const displayPopupModal = (i) => {
         </div>
   </div>
   `;
+
   popupModal.style.display = 'block';
 };
 
