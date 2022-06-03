@@ -638,7 +638,7 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 9%;
+  right: 4%;
   top: 4%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
@@ -799,7 +799,6 @@ hr {
 
 /* stylelint-disable-next-line comment-empty-line-before */
 
-/* --------media queries----- */
 @media (min-width: 768px) {
   body {
     font-family: "Poppins", sans-serif;
