@@ -14,6 +14,7 @@ body {
 .container {
   width: 90%;
   margin: auto;
+  overflow: hidden;
 }
 
 h1 {
@@ -159,8 +160,6 @@ nav .nav-right {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 .home-content .primary {
@@ -207,8 +206,9 @@ nav .nav-right {
 }
 
 .home-content .supporting {
-  height: 164px;
-  min-width: 327px;
+  /* height: 164px;
+  min-width: 327px; */
+  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -230,9 +230,8 @@ nav .nav-right {
 }
 
 .social-icons {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 50px;
+  /* padding-left: 2%;
+  padding-right: 2%; */
   margin-bottom: 30px;
 }
 
@@ -267,8 +266,6 @@ nav .nav-right {
 
 .my-recent-works {
   padding-top: 20px;
-  min-width: 375px;
-  height: 97px;
 }
 
 .action {
@@ -288,15 +285,11 @@ nav .nav-right {
 }
 
 .works {
-  min-width: 375px;
+  /* min-width: 375px; */
   text-align: center;
-  margin-top: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  padding: 10px;
 }
 
 .works .indicator {
@@ -314,6 +307,8 @@ nav .nav-right {
   border: 1px solid #d0d9d4;
   align-items: center;
   padding-bottom: 15px;
+  margin: auto;
+  width: 100%;
 }
 
 .work-1:hover,
@@ -345,7 +340,7 @@ nav .nav-right {
 }
 
 .works .img-holder {
-  width: 100%;
+  min-width: 100%;
   height: 220px;
   border-bottom: none;
   padding: 0;
@@ -369,14 +364,11 @@ nav .nav-right {
 }
 
 .about-me {
-  width: 351px;
   text-align: center;
   background: url("../images/illustration\ 2-about\ me\ mobile.svg");
   background-repeat: no-repeat;
   background-size: 100px 50px;
   background-position: bottom left;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .about-me-text {
@@ -424,9 +416,6 @@ nav .nav-right {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  width: 375px;
-  padding-left: 16px;
-  padding-right: 10px;
 }
 
 .my-knowledge .flex-languages ul {
@@ -642,7 +631,7 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 4%;
+  right: 12%;
   top: 4%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
