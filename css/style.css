@@ -922,7 +922,7 @@ hr {
   .works .work-4,
   .works .work-5,
   .works .work-6 {
-    max-width: 369px;
+    width: 100%;
     max-height: 474px;
   }
 
