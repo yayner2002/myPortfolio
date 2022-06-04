@@ -14,6 +14,10 @@ body {
 
 .container {
   min-width: 375px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: auto;
+  overflow-x: auto;
 }
 
 h1 {
