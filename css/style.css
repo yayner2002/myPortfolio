@@ -12,6 +12,10 @@ body {
   min-width: 375px;
 }
 
+.container {
+  min-width: 375px;
+}
+
 h1 {
   font-size: 29px;
 }
@@ -21,7 +25,6 @@ h1 {
   margin: 0;
   padding-right: 2%;
   padding-left: 2%;
-  max-width: 375px;
   min-width: 375px;
 }
 
