@@ -9,13 +9,11 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Inter", sans-serif;
-  min-width: 375px;
 }
 
 .container {
-  min-width: 375px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 90%;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -271,7 +269,7 @@ nav .nav-right {
 
 .my-recent-works {
   padding-top: 20px;
-  min-width: 327px;
+  min-width: 375px;
   height: 97px;
 }
 
