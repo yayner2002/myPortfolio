@@ -797,14 +797,6 @@ hr {
     font-family: "Poppins", sans-serif;
   }
 
-  .container {
-    width: 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom 1px left 20px;
-  }
-
   .nav-flex {
     min-width: 100%;
     margin: auto;
@@ -922,8 +914,8 @@ hr {
   .works .work-4,
   .works .work-5,
   .works .work-6 {
-    width: 100%;
-    max-height: 474px;
+    width: 369px;
+    height: 474px;
   }
 
   .works {
@@ -975,17 +967,17 @@ hr {
   }
 
   .my-knowledge {
-    width: 1171px;
+    width: 100%;
     margin: auto;
     display: grid;
-    gap: 2px;
+    gap: 12px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .my-knowledge .languages,
   .my-knowledge .frameworks,
   .my-knowledge .skills {
-    width: 369px;
+    width: 100%;
     height: 375px;
   }
 
@@ -1322,5 +1314,14 @@ hr {
     padding: 15px;
     transition: visibility 30s ease-in-out;
     background-color: red;
+  }
+
+  .container {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 1px left 20px;
   }
 }
