@@ -984,7 +984,7 @@ hr {
   .contact-form .form-flex {
     margin: 0 80px;
     display: grid;
-    width: 1171px;
+    width: 100%;
     height: 490px;
     gap: 10px;
     grid-template-columns: 1fr 2fr;
