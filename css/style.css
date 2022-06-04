@@ -159,11 +159,13 @@ nav .nav-right {
   flex-direction: column;
   padding-left: 2%;
   padding-right: 2%;
+  min-width: 375px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .home-content .primary {
-  height: 192px;
-  width: 327px;
+  min-width: 327px;
 }
 
 .frameworks h2,
@@ -207,7 +209,7 @@ nav .nav-right {
 
 .home-content .supporting {
   height: 164px;
-  width: 327px;
+  min-width: 327px;
   margin-bottom: 20px;
 }
 
@@ -266,7 +268,7 @@ nav .nav-right {
 
 .my-recent-works {
   padding-top: 20px;
-  width: 327px;
+  min-width: 327px;
   height: 97px;
 }
 
@@ -287,7 +289,7 @@ nav .nav-right {
 }
 
 .works {
-  max-width: 375px;
+  min-width: 375px;
   text-align: center;
   margin-top: 70px;
   margin-left: 10px;
