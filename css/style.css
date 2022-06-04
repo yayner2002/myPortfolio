@@ -34,6 +34,8 @@ h1 {
 }
 
 nav {
+  margin-left: 0;
+  padding-left: 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -158,15 +160,10 @@ nav .nav-right {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-left: 2%;
-  padding-right: 2%;
-  min-width: 375px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .home-content .primary {
-  min-width: 327px;
+  width: 100%;
 }
 
 .frameworks h2,
@@ -194,7 +191,7 @@ nav .nav-right {
 }
 
 .home-content .primary h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.3em;
   color: #172b4d;
@@ -209,8 +206,9 @@ nav .nav-right {
 }
 
 .home-content .supporting {
-  height: 164px;
-  min-width: 327px;
+  /* height: 164px;
+  min-width: 327px; */
+  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -232,9 +230,8 @@ nav .nav-right {
 }
 
 .social-icons {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 50px;
+  /* padding-left: 2%;
+  padding-right: 2%; */
   margin-bottom: 30px;
 }
 
@@ -269,8 +266,6 @@ nav .nav-right {
 
 .my-recent-works {
   padding-top: 20px;
-  min-width: 375px;
-  height: 97px;
 }
 
 .action {
@@ -290,15 +285,11 @@ nav .nav-right {
 }
 
 .works {
-  min-width: 375px;
+  /* min-width: 375px; */
   text-align: center;
-  margin-top: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  padding: 10px;
 }
 
 .works .indicator {
@@ -316,6 +307,8 @@ nav .nav-right {
   border: 1px solid #d0d9d4;
   align-items: center;
   padding-bottom: 15px;
+  margin: auto;
+  width: 100%;
 }
 
 .work-1:hover,
@@ -347,7 +340,7 @@ nav .nav-right {
 }
 
 .works .img-holder {
-  width: 100%;
+  min-width: 100%;
   height: 220px;
   border-bottom: none;
   padding: 0;
@@ -371,14 +364,11 @@ nav .nav-right {
 }
 
 .about-me {
-  width: 351px;
   text-align: center;
   background: url("../images/illustration\ 2-about\ me\ mobile.svg");
   background-repeat: no-repeat;
   background-size: 100px 50px;
   background-position: bottom left;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .about-me-text {
@@ -426,9 +416,6 @@ nav .nav-right {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  width: 375px;
-  padding-left: 16px;
-  padding-right: 10px;
 }
 
 .my-knowledge .flex-languages ul {
@@ -644,7 +631,7 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 4%;
+  right: 12%;
   top: 4%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
@@ -810,14 +797,6 @@ hr {
     font-family: "Poppins", sans-serif;
   }
 
-  .container {
-    width: 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom 1px left 20px;
-  }
-
   .nav-flex {
     min-width: 100%;
     margin: auto;
@@ -935,8 +914,8 @@ hr {
   .works .work-4,
   .works .work-5,
   .works .work-6 {
-    max-width: 369px;
-    max-height: 474px;
+    width: 369px;
+    height: 474px;
   }
 
   .works {
@@ -988,24 +967,24 @@ hr {
   }
 
   .my-knowledge {
-    width: 1171px;
+    width: 100%;
     margin: auto;
     display: grid;
-    gap: 2px;
+    gap: 12px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .my-knowledge .languages,
   .my-knowledge .frameworks,
   .my-knowledge .skills {
-    width: 369px;
+    width: 100%;
     height: 375px;
   }
 
   .contact-form .form-flex {
     margin: 0 80px;
     display: grid;
-    width: 1171px;
+    width: 100%;
     height: 490px;
     gap: 10px;
     grid-template-columns: 1fr 2fr;
@@ -1335,5 +1314,14 @@ hr {
     padding: 15px;
     transition: visibility 30s ease-in-out;
     background-color: red;
+  }
+
+  .container {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 1px left 20px;
   }
 }
