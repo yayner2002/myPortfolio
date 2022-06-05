@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Inter", sans-serif;
+  overflow-x: auto;
 }
 
 .container {
@@ -24,9 +25,7 @@ h1 {
 .nav-flex {
   text-align: center;
   margin: 0;
-  padding-right: 2%;
-  padding-left: 2%;
-  min-width: 375px;
+  width: 100%;
 }
 
 .nav-middle ul {
@@ -1320,8 +1319,5 @@ hr {
     width: 88%;
     margin: auto;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom 1px left 20px;
   }
 }
