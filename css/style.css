@@ -1042,7 +1042,8 @@ hr {
   .contact-container {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/Frame.svg");
+
+    /* background-image: url("../images/Frame.svg"); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom 60px right 0;
@@ -1109,6 +1110,7 @@ hr {
   }
 
   .contact-form {
+    width: 100%;
     background: url("../images/bg1\ for\ contact.svg");
     background-repeat: no-repeat;
     background-position: bottom 80px left 1px;
@@ -1320,8 +1322,5 @@ hr {
     width: 88%;
     margin: auto;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom 1px left 20px;
   }
 }
