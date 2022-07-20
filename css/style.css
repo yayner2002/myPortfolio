@@ -123,6 +123,7 @@ nav .nav-left {
 
 .social-icons li:hover {
   transform: translateY(-10px);
+  color: #008552;
 }
 
 .popup-mobile-technology ul li:first-child {
@@ -243,6 +244,7 @@ nav .nav-right {
 
 .social-icons ul li a {
   transition: 0.2s ease-in-out;
+  color: #008552;
 }
 
 .my-recent-works img {
@@ -252,6 +254,7 @@ nav .nav-right {
 
 .social-icons li a:hover {
   transform: translateY(-10px);
+  color: #008552;
 }
 
 .languages img,
@@ -603,7 +606,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 5px;
   padding-top: 50px;
   padding-left: 18px;
   background: #fff;
@@ -612,8 +615,24 @@ hr {
 
 .nav-middle.show ul li a {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   color: #3a4a42;
+  position: relative;
+}
+
+.nav-middle.show ul li a::after {
+  content: "";
+  width: 0;
+  background: #008552;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  transition: 0.5s;
+}
+
+.nav-middle.show ul li a:hover::after {
+  width: 100%;
 }
 
 .menu {
@@ -1141,7 +1160,7 @@ hr {
     height: 3px;
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: 2px;
     transition: 0.5s;
   }
 
@@ -1149,6 +1168,15 @@ hr {
   .nav-middle ul li {
     padding-bottom: 0;
     margin-bottom: 0;
+  }
+
+  .nav-middle ul li a {
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
   }
 
   .nav-middle ul li:hover::after {
