@@ -631,12 +631,11 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 12%;
+  right: 8%;
   top: 4%;
   background: url('../images/Icon\ -\ Cancel.png');
   background-size: 24px;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
 .desktop-screen {
@@ -1047,7 +1046,7 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 60px right 0;
+    background-position: bottom 5px right;
   }
 
   .contact-container .social-icons {
