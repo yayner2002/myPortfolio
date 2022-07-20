@@ -606,7 +606,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 5px;
   padding-top: 50px;
   padding-left: 18px;
   background: #fff;
@@ -615,8 +615,24 @@ hr {
 
 .nav-middle.show ul li a {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   color: #3a4a42;
+  position: relative;
+}
+
+.nav-middle.show ul li a::after {
+  content: "";
+  width: 0;
+  background: #008552;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  transition: 0.5s;
+}
+
+.nav-middle.show ul li a:hover::after {
+  width: 100%;
 }
 
 .menu {
