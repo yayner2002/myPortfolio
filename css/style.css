@@ -341,6 +341,7 @@ nav .nav-right {
 
 .works .img-holder {
   min-width: 100%;
+  width: 365px;
   height: 220px;
   border-bottom: none;
   padding: 0;
