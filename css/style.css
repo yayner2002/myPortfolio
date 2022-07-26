@@ -609,21 +609,23 @@ hr {
   gap: 5px;
   padding-top: 50px;
   padding-left: 18px;
-  background: #fff;
+  background: #04a05f;
   z-index: 10;
 }
 
 .nav-middle.show ul li a {
   font-size: 32px;
   font-weight: 500;
-  color: #3a4a42;
+  color: #fff;
   position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .nav-middle.show ul li a::after {
   content: "";
   width: 0;
-  background: #008552;
+  background: #ec5242;
   height: 3px;
   position: absolute;
   left: 0;
@@ -641,7 +643,7 @@ hr {
   height: 24px;
   right: 5%;
   top: 2%;
-  background: url('../images/Icon-Menu.svg');
+  background: url('../images/menu.png');
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: center;
@@ -651,9 +653,11 @@ hr {
 
 .menu.show {
   position: fixed;
-  right: 8%;
+  width: 24px;
+  height: 24px;
+  right: 12%;
   top: 4%;
-  background: url('../images/Icon\ -\ Cancel.png');
+  background: url('../images/close.png');
   background-size: 24px;
   background-repeat: no-repeat;
 }
