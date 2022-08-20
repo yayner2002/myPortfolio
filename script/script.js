@@ -10,17 +10,17 @@ menu.addEventListener('click', toggleMenu);
 lists.forEach((list) => list.addEventListener('click', toggleMenu));
 // ----------project detail object------
 const projectDetail = [{
-  title: 'Awesome Books',
-  popTitle: 'Keeping track of hundreds of components',
+  title: 'Book Store APi',
+  popTitle: 'Keeping track of hundreds of Books',
   popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',
   technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
   popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-  imagePlaceholder: './images/awsomebook.png',
+  imagePlaceholder: './images/bookStore.png',
   imageMobile: './images/Img Plaholder.png',
-  imagePopup: './images/awsomebook.png',
+  imagePopup: './images/bookStore.png',
   imageMobilePopup: './images/Snapshoot Portfolio.png',
-  seeLive: 'https://yayner2002.github.io/Awesome-books-using-Js-classes/',
-  seeSource: 'https://github.com/yayner2002/Awesome-books-using-Js-classes',
+  seeLive: 'https://yay-book-store.netlify.app/',
+  seeSource: 'https://github.com/yayner2002/book-store',
 },
 {
   title: 'Leaderboard',
