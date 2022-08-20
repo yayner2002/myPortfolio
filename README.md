@@ -5,7 +5,7 @@
 - CSS
 - Javascript
 ## Screenshot
-![home page](/images/screencapture-127-0-0-1-5504-index-html-2022-08-20-15_49_08.png?raw=true "home screenshot")
+![home page](/images/appscreenshot.png?raw=true "home screenshot")
 ## Live Demo
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 # Getting Started
