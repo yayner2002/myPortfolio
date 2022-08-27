@@ -1,11 +1,12 @@
 # My Portfolio Website
-> Desktop and mbile version of my portfolio.
+> A portfolio webiste designed to make web developers design thier own portfolio. Users can see the list of previously made projects, send message through email and it also supports both mobile and desktop versions . Built with HTML,CSS and Javascript
 ## Built With
 - HTML
 - CSS
 - Javascript
 ## Screenshot
-![home page](/images/appscreenshot.png?raw=true "home screenshot")
+![home page](/images/mob.png?raw=true "home screenshot")
+![home page](/images/appscreenshotnew.png?raw=true "home screenshot")
 ## Live Demo
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 # Getting Started
