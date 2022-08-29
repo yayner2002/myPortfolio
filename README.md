@@ -5,8 +5,7 @@
 - CSS
 - Javascript
 ## Screenshot
-![home page](/images/mob.png?raw=true "home screenshot")
-![home page](/images/appscreenshotnew.png?raw=true "home screenshot")
+![mockup](/images/portfolio.png?raw=true "mockup")
 ## Live Demo
 [Live Demo Link](https://yayner2002.github.io/myPortfolio/)
 # Getting Started
