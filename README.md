@@ -7,7 +7,7 @@
 ## Screenshot
 ![mockup](/images/portfolio.png?raw=true "mockup")
 ## Live Demo
-[Live Demo Link](https://yayner2002.github.io/myPortfolio/)
+[Live Demo Link](https://yay-portfolio.netlify.app/)
 # Getting Started
 
 * To get a local copy up and running follow these simple example steps.
