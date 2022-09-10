@@ -402,10 +402,10 @@ nav .nav-right {
   position: absolute;
   content: "";
   height: 4px;
-  width: 30%;
+  width: 25%;
   background: #008552;
   top: 100%;
-  bottom: -50%;
+  bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -826,6 +826,8 @@ hr {
 @media (min-width: 768px) {
   body {
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .nav-flex {
@@ -894,26 +896,13 @@ hr {
   .about-me-text h2 {
     color: #172b4d;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-family: "Inter", sans-serif;
     margin-bottom: 10px;
     text-align: center;
-    width: 447px;
-    height: 48px;
+    width: 400px;
     position: relative;
-  }
-
-  .about-me-text h2::after {
-    width: 30%;
-    height: 4px;
-    content: "";
-    position: absolute;
-    background: #037244;
-    bottom: -80%;
-    left: 50%;
-    border-radius: 15px;
-    transform: translateX(-50%);
   }
 
   .home-content .primary h2 {
@@ -938,12 +927,12 @@ hr {
     width: 447px;
     height: 80px;
     padding-bottom: 0;
-    margin-top: 400px;
+    margin-top: 355px;
   }
 
   .my-recent-works h3 {
     color: #172b4d;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     font-style: normal;
     position: relative;
@@ -1213,10 +1202,6 @@ hr {
     padding-left: 0;
     padding-right: 0;
     margin-right: 0;
-  }
-
-  .nav-middle ul li.active::after {
-    width: 100%;
   }
 
   .nav-middle ul li:hover::after {
