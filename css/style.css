@@ -288,6 +288,7 @@ nav .nav-right {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  width: 100%;
 }
 
 .works .indicator {
@@ -306,7 +307,6 @@ nav .nav-right {
   align-items: center;
   padding-bottom: 15px;
   margin: auto;
-  width: 100%;
 }
 
 .work-1:hover,
@@ -338,8 +338,7 @@ nav .nav-right {
 }
 
 .works .img-holder {
-  min-width: 100%;
-  width: 365px;
+  width: 100%;
   height: 220px;
   border-bottom: none;
   padding: 0;
@@ -396,7 +395,19 @@ nav .nav-right {
 
 .about-me .about-me-text h2 {
   margin: 20px auto;
-  padding-bottom: 20px;
+  position: relative;
+}
+
+.about-me .about-me-text h2::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 25%;
+  background: #008552;
+  top: 100%;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .about-me .get-resume {
@@ -815,6 +826,8 @@ hr {
 @media (min-width: 768px) {
   body {
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .nav-flex {
@@ -883,13 +896,13 @@ hr {
   .about-me-text h2 {
     color: #172b4d;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-family: "Inter", sans-serif;
     margin-bottom: 10px;
     text-align: center;
-    width: 447px;
-    height: 48px;
+    width: 400px;
+    position: relative;
   }
 
   .home-content .primary h2 {
@@ -914,14 +927,27 @@ hr {
     width: 447px;
     height: 80px;
     padding-bottom: 0;
-    margin-top: 400px;
+    margin-top: 355px;
   }
 
   .my-recent-works h3 {
     color: #172b4d;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     font-style: normal;
+    position: relative;
+  }
+
+  .my-recent-works h3::after {
+    content: "";
+    width: 30%;
+    background: #008552;
+    position: absolute;
+    left: 50%;
+    height: 4px;
+    border-radius: 15px;
+    bottom: 0%;
+    transform: translateX(-50%);
   }
 
   .my-recent-works img {
