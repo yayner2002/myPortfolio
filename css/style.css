@@ -185,7 +185,7 @@ nav .nav-right {
 }
 
 .about-me-text h2 {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
@@ -362,6 +362,8 @@ nav .nav-right {
 }
 
 .about-me {
+  height: 365px;
+  width: 100%;
   text-align: center;
   background: url("../images/illustration\ 2-about\ me\ mobile.svg");
   background-repeat: no-repeat;
@@ -370,7 +372,8 @@ nav .nav-right {
 }
 
 .about-me-text {
-  width: 351px;
+  height: 350px;
+  width: 100%;
   padding-top: 5px;
   background: url("../images/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat;
@@ -391,6 +394,7 @@ nav .nav-right {
   font-style: normal;
   color: #42526e;
   font-size: 20px;
+  margin: 20px;
 }
 
 .about-me .about-me-text h2 {
@@ -411,6 +415,7 @@ nav .nav-right {
 }
 
 .about-me .get-resume {
+  text-decoration: none;
   padding: 12px;
   color: #fff;
   margin: 20px 0;
@@ -995,21 +1000,15 @@ hr {
     font-weight: 400;
     font-size: 20px;
     color: #42526e;
-    margin-top: 10px;
+    margin: 20px 0%;
     width: 920px;
-    height: 96px;
     padding-left: 350px;
-    padding-top: 20px;
     text-align: center;
   }
 
-  .get-resume {
+  .about-me .get-resume {
     transition: 0.5s;
     cursor: pointer;
-  }
-
-  .about-me .get-resume {
-    margin-top: 60px;
   }
 
   .my-knowledge {
