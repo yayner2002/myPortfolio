@@ -41,7 +41,18 @@ nav {
   align-items: baseline;
 }
 
-.nav-flex a {
+.my-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 20px rgba(7, 7, 7, 0.5);
+  background: #fff;
+  min-width: 100%;
+}
+
+.nav-flex a,
+.my-header a {
   cursor: pointer;
   text-decoration: none;
   color: #000;
