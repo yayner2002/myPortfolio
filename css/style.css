@@ -79,7 +79,7 @@ nav {
   text-align: center;
 }
 
-.nav-flex header li a {
+.my-header li a {
   font-weight: 600;
   font-size: 15px;
   font-style: normal;
@@ -142,7 +142,7 @@ nav .nav-left {
   align-content: center;
 }
 
-.nav-flex header ul {
+.my-header ul {
   list-style: none;
 }
 
@@ -835,10 +835,31 @@ hr {
     overflow-x: hidden;
   }
 
+  .container {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .my-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(7, 7, 7, 0.5);
+    background: #fff;
+    min-width: 100%;
+    min-height: 4rem;
+  }
+
+  .my-header .container {
+    min-width: 100%;
+  }
+
   .nav-flex {
     min-width: 100%;
-    margin: auto;
-    height: 1020px;
+    margin: 0.2rem auto;
+    height: 1000px;
     background-image: url(../images/Header-llustration-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -1369,11 +1390,5 @@ hr {
     padding: 15px;
     transition: visibility 30s ease-in-out;
     background-color: red;
-  }
-
-  .container {
-    width: 88%;
-    margin: auto;
-    overflow: hidden;
   }
 }
