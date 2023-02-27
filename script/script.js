@@ -10,6 +10,19 @@ menu.addEventListener('click', toggleMenu);
 lists.forEach((list) => list.addEventListener('click', toggleMenu));
 // ----------project detail object------
 const projectDetail = [{
+  title: 'Places App',
+  popTitle: 'Keeping track of Places users visited',
+  popDescription: 'In this app, you can add, update, delete, view on map a place.',
+  technologies: ['React', 'ExpressJS', 'NodeJS', 'MongoDB'],
+  popupTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+  imagePlaceholder: './images/Place-app-screenshot.png',
+  imageMobile: './images/Img Plaholder.png',
+  imagePopup: './images/crypto.png',
+  imageMobilePopup: './images/Img Plaholder.png',
+  seeLive: 'https://yay-places-app.web.app/',
+  seeSource: 'https://github.com/yayner2002/social-app',
+},
+{
   title: 'Crypto Market',
   popTitle: 'Keeping track of hundreds of components',
   popDescription: 'In this app, you can add, delete, submit and edit items. To edit items, simply double click on it. Once you are done, press the enter key to resubmit. This app will persist your data in the browser local storage. So whether you reload, close your app or reopened it, you still have access to your to-dos items.',
@@ -86,7 +99,7 @@ const projectDetail = [{
   imageMobilePopup: './images/yay-react-commerce.png',
   seeLive: 'https://yay-commerce.netlify.app/',
   seeSource: 'https://github.com/yayner2002/delivery-ecommere-app',
-},
+}
 ];
 // -------------End of project detail object-----
 
