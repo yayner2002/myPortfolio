@@ -11,10 +11,10 @@ lists.forEach((list) => list.addEventListener("click", toggleMenu));
 // ----------project detail object------
 const projectDetail = [
   {
-    title: "Places App",
-    popTitle: "Keeping track of Places users visited",
+    title: "mayaShop",
+    popTitle: "seamless and enjoyable shopping experience",
     popDescription:
-      "In this app, you can add, update, delete, view on map a place.",
+      "Welcome to mayaShop, the ultimate online shopping destination! At mayaShop, we strive to provide you with a seamless and enjoyable shopping experience from the comfort of your own home. Our platform boasts a vast collection of products from various categories, including fashion, electronics, home decor, beauty, sports, and much more.",
     technologies: ["React", "ExpressJS", "NodeJS", "MongoDB"],
     popupTech: [
       "React Js",
@@ -24,7 +24,7 @@ const projectDetail = [
       "Redux Toolkit (RTK)",
       "React-Bootstrap",
     ],
-    imagePlaceholder: "./images/Place-app-screenshot.png",
+    imagePlaceholder: "./images/mayShop.png",
     imageMobile: "./images/mayShop.png",
     imagePopup: "./images/mayShop.png",
     imageMobilePopup: "./images/Img Plaholder.png",

@@ -514,7 +514,6 @@ nav .nav-right {
 /* -------------contact form css----- */
 .contact-container {
   width: 375px;
-  height: 100vh;
 }
 
 .contact-form {
@@ -671,7 +670,7 @@ hr {
   height: 24px;
   right: 5%;
   top: 2%;
-  background: url('../images/menu.png');
+  background: url("../images/menu.png");
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: center;
@@ -685,7 +684,7 @@ hr {
   height: 24px;
   right: 12%;
   top: 4%;
-  background: url('../images/close.png');
+  background: url("../images/close.png");
   background-size: 24px;
   background-repeat: no-repeat;
 }
@@ -997,14 +996,14 @@ hr {
   .works .work-4,
   .works .work-5,
   .works .work-6 {
-    width: 369px;
+    width: 100%;
     height: 474px;
   }
 
   .works {
     display: grid;
-    gap: 12px;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
     min-width: 1171px;
     min-height: 1020px;
     margin: auto;
@@ -1122,11 +1121,17 @@ hr {
     background-image: url("../images/Frame.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom 5px right;
+  /* position to center the background image */
+
+
+    background-position: bottom 10px right;
+ 
   }
 
   .contact-container .social-icons {
-    margin-left: 580px;
+    margin-left: 50%;
+    text-align: center;
+
   }
 
   .form-group #fullname {
