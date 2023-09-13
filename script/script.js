@@ -136,48 +136,6 @@ const projectDetail = [
     seeLive: "https://yayner2002.github.io/yayEcommerce/",
     seeSource: "https://github.com/yayner2002/yayEcommerce",
   },
-  {
-    title: "TV Shows",
-    popTitle: "Keeping track of hundreds of Movies",
-    popDescription:
-      "Js Group Project made by a team of three persons, This a movie website which fetches data from the TvMaze Api and displays it in ui , it allows the users to add comments, reservations and also to like the movies.",
-    technologies: ["Javascript", "CSS", "WEbpack", "API"],
-    popupTech: [
-      "Codekit",
-      "GitHub",
-      "javaScript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
-    ],
-    imagePlaceholder: "./images/tvshow.png",
-    imageMobile: "./images/Img Plaholder.png",
-    imagePopup: "./images/tvshow.png",
-    imageMobilePopup: "./images/tvshow.png",
-    seeLive: "https://github.com/yayner2002/js-group-project",
-    seeSource: "https://yayner2002.github.io/js-group-project/",
-  },
-  {
-    title: "Food Delivery App",
-    popTitle: "Keeping track of hundreds of components",
-    popDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["React", "Redux", "ReduxToolkit", "Bootstrap"],
-    popupTech: [
-      "Codekit",
-      "GitHub",
-      "javaScript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
-    ],
-    imagePlaceholder: "./images/yay-react-commerce.png",
-    imageMobile: "./images/yay-react-commerce.png",
-    imagePopup: "./images/yay-react-commerce.png",
-    imageMobilePopup: "./images/yay-react-commerce.png",
-    seeLive: "https://yay-commerce.netlify.app/",
-    seeSource: "https://github.com/yayner2002/delivery-ecommere-app",
-  },
 ];
 // -------------End of project detail object-----
 
