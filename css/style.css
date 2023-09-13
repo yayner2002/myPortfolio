@@ -455,10 +455,11 @@ nav .nav-right {
 .my-knowledge .flex-frameworks ul {
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 327px;
+  margin: auto;
 }
 
 .my-knowledge .flex-skills ul li,
@@ -1054,7 +1055,9 @@ hr {
   .my-knowledge .frameworks,
   .my-knowledge .skills {
     width: 100%;
-    height: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-form .form-flex {
