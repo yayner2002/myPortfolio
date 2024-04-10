@@ -11,6 +11,21 @@ lists.forEach((list) => list.addEventListener("click", toggleMenu));
 // ----------project detail object------
 const projectDetail = [
   {
+    title: "YayShiyach",
+    popTitle: "Discover the perfect property that suits your needs.",
+    popDescription:
+      "A property webiste that allows users to view properties and contact the owner for more information.      .",
+    technologies: ["NextJs", "ReactJS", "REST API", "MongoDB"],
+    popupTech: ["NextJs", "React Js", "REST API", "MongoDB", "Tailwind CSS"],
+    imagePlaceholder: "./images/mayShop.png",
+    imageMobile: "./images/Screenshot_app.png",
+    imagePopup: "./images/Screenshot_app.png",
+    imageMobilePopup: "./images/Img Plaholder.png",
+    seeLive: "https://property-rental-three.vercel.app/",
+    seeSource: "https://github.com/yayner2002/property-rental",
+  },
+  ,
+  {
     title: "mayaShop",
     popTitle: "seamless and enjoyable shopping experience",
     popDescription:
