@@ -20,7 +20,7 @@ const projectDetail = [
     imagePlaceholder: "./images/mayShop.png",
     imageMobile: "./images/Screenshot_app.png",
     imagePopup: "./images/Screenshot_app.png",
-    imageMobilePopup: "./images/Img Plaholder.png",
+    imageMobilePopup: "./images/Screenshot_app.png",
     seeLive: "https://property-rental-three.vercel.app/",
     seeSource: "https://github.com/yayner2002/property-rental",
   },
