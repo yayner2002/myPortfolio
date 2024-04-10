@@ -24,7 +24,6 @@ const projectDetail = [
     seeLive: "https://property-rental-three.vercel.app/",
     seeSource: "https://github.com/yayner2002/property-rental",
   },
-  ,
   {
     title: "mayaShop",
     popTitle: "seamless and enjoyable shopping experience",
