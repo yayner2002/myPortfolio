@@ -17,7 +17,7 @@ const projectDetail = [
       "A property webiste that allows users to view properties and contact the owner for more information.      .",
     technologies: ["NextJs", "ReactJS", "REST API", "MongoDB"],
     popupTech: ["NextJs", "React Js", "REST API", "MongoDB", "Tailwind CSS"],
-    imagePlaceholder: "./images/mayShop.png",
+    imagePlaceholder: "./images/Screenshot_app.png",
     imageMobile: "./images/Screenshot_app.png",
     imagePopup: "./images/Screenshot_app.png",
     imageMobilePopup: "./images/Screenshot_app.png",
